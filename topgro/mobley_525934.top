@@ -1,0 +1,64 @@
+; MOL_GMX.top created by acpypi on Fri Jun  4 10:41:11 2010
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333
+
+[ atomtypes ]
+;name   bond_type     mass     charge   ptype   sigma         epsilon       Amb
+ h1       h1          0.00000  0.00000   A     2.47135e-01   6.56888e-02 ; 1.39  0.0157
+ c3       c3          0.00000  0.00000   A     3.39967e-01   4.57730e-01 ; 1.91  0.1094
+ sh       sh          0.00000  0.00000   A     3.56359e-01   1.04600e+00 ; 2.00  0.2500
+ hs       hs          0.00000  0.00000   A     1.06908e-01   6.56888e-02 ; 0.60  0.0157
+
+[ moleculetype ]
+;name            nrexcl
+ MOL              3
+
+[ atoms ]
+;   nr  type  resi  res  atom  cgnr     charge      mass       typeB    chargeB
+     1   h1     1   MOL   H11    1      0.08010      1.00800 ; qtot 0.080
+     2   c3     1   MOL    C1    2     -0.02380     12.01000 ; qtot 0.056
+     3   h1     1   MOL   H12    3      0.05550      1.00800 ; qtot 0.112
+     4   h1     1   MOL   H13    4      0.05540      1.00800 ; qtot 0.167
+     5   sh     1   MOL    S1    5     -0.36340     32.06000 ; qtot -0.196
+     6   hs     1   MOL    H1    6      0.19620      1.00800 ; qtot 0.000
+
+[ bonds ]
+;   ai     aj funct   r             k
+     1      2   1    1.0930e-01    2.8108e+05 ;    H11 - C1    
+     2      3   1    1.0930e-01    2.8108e+05 ;     C1 - H12   
+     2      4   1    1.0930e-01    2.8108e+05 ;     C1 - H13   
+     5      6   1    1.3370e-01    2.5288e+05 ;     S1 - H1    
+     2      5   1    1.8220e-01    1.8853e+05 ;     C1 - S1    
+
+[ pairs ]
+;   ai     aj    funct
+     1      6      1 ;    H11 - H1    
+     3      6      1 ;    H12 - H1    
+     4      6      1 ;    H13 - H1    
+
+[ angles ]
+;   ai     aj     ak    funct   theta         cth
+     1      2      3      1    1.0955e+02    3.2803e+02 ;    H11 - C1     - H12   
+     1      2      4      1    1.0955e+02    3.2803e+02 ;    H11 - C1     - H13   
+     1      2      5      1    1.0921e+02    3.5480e+02 ;    H11 - C1     - S1    
+     2      5      6      1    9.6600e+01    3.7572e+02 ;     C1 - S1     - H1    
+     3      2      4      1    1.0955e+02    3.2803e+02 ;    H12 - C1     - H13   
+     3      2      5      1    1.0921e+02    3.5480e+02 ;    H12 - C1     - S1    
+     4      2      5      1    1.0921e+02    3.5480e+02 ;    H13 - C1     - S1    
+
+[ dihedrals ] ; propers
+; treated as RBs in GROMACS to use combine multiple AMBER torsions per quartet
+; i   j   k   l func   C0        C1        C2        C3        C4        C5
+  1   2   5   6   3    1.04600    3.13800    0.00000   -4.18400    0.00000    0.00000 ;    H11-    C1-    S1-    H1
+  3   2   5   6   3    1.04600    3.13800    0.00000   -4.18400    0.00000    0.00000 ;    H12-    C1-    S1-    H1
+  4   2   5   6   3    1.04600    3.13800    0.00000   -4.18400    0.00000    0.00000 ;    H13-    C1-    S1-    H1
+
+[ system ]
+MOL in water
+
+[ molecules ]
+; Compound        nmols
+ MOL              1     
+SOL               458

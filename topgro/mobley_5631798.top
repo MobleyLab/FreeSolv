@@ -1,0 +1,45 @@
+; topgro/ammonia0.top created by rdparm2gmx.pl Thu Mar 27 08:56:58 PST 2008
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333
+
+[ atomtypes ]
+;name  bond_type    mass    charge   ptype          sigma      epsilon
+n3            n3      0.0000  0.0000  A   3.25000e-01  7.11280e-01
+hn            hn      0.0000  0.0000  A   1.06908e-01  6.56888e-02
+
+[ moleculetype ]
+; Name            nrexcl
+solute             3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB
+     1         n3      1    TMP     N1      1   -1.00980  14.000000
+     2         hn      1    TMP     H1      2    0.33660   1.000000
+     3         hn      1    TMP     H2      3    0.33660   1.000000
+     4         hn      1    TMP     H3      4    0.33660   1.000000
+
+[ bonds ]
+;  ai    aj funct  r  k
+    1     2     1  1.0180e-01  3.2978e+05
+    1     3     1  1.0180e-01  3.2978e+05
+    1     4     1  1.0180e-01  3.2978e+05
+
+[ pairs ]
+;  ai    aj funct
+
+[ angles ]
+;  ai    aj    ak funct  theta   cth
+    2     1     3     1  1.0713e+02  3.4560e+02
+    2     1     4     1  1.0713e+02  3.4560e+02
+    3     1     4     1  1.0713e+02  3.4560e+02
+
+
+[ system ]
+4 system in water
+
+[ molecules ]
+; Compound        nmols
+solute            1
+SOL               384

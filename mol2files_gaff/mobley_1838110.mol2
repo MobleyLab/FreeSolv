@@ -1,0 +1,26 @@
+@<TRIPOS>MOLECULE
+112_trichloro_122_trifluoroethane
+    8     7     1     0     0
+SMALL
+No Charge or Current Charge
+
+
+@<TRIPOS>ATOM
+      1 C1          1.3840    0.0330    0.6380 c3        1 MOL      0.508400
+      2 C2          0.0000    0.0000    0.0000 c3        1 MOL      0.344500
+      3 F1          1.7630   -1.2350    0.9510 f         1 MOL     -0.186800
+      4 F2          2.2880    0.4780   -0.2760 f         1 MOL     -0.186800
+      5 F3          0.0860   -0.7670   -1.1250 f         1 MOL     -0.170500
+      6 Cl1         1.4930    1.0430    2.0950 cl        1 MOL     -0.132100
+      7 Cl2        -0.5440    1.6250   -0.4900 cl        1 MOL     -0.088300
+      8 Cl3        -1.2090   -0.7470    1.0760 cl        1 MOL     -0.088300
+@<TRIPOS>BOND
+     1    1    2 1   
+     2    1    3 1   
+     3    1    4 1   
+     4    1    6 1   
+     5    2    5 1   
+     6    2    7 1   
+     7    2    8 1   
+@<TRIPOS>SUBSTRUCTURE
+     1 R0_         1 TEMP              0 ****  ****    0 ROOT

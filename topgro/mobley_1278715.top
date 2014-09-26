@@ -1,0 +1,83 @@
+; HEX_GMX.top created by acpypi on Tue Mar  3 13:26:32 2009
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333
+
+[ atomtypes ]
+;name   bond_type     mass     charge   ptype   sigma         epsilon       Amb
+ c3       c3          0.00000  0.00000   A     3.39967e-01   4.57730e-01 ; 1.91  0.1094
+ cl       cl          0.00000  0.00000   A     3.47094e-01   1.10876e+00 ; 1.95  0.2650
+
+[ moleculetype ]
+;name            nrexcl
+ HEX              3
+
+[ atoms ]
+;   nr  type  resi  res  atom  cgnr     charge      mass       typeB    chargeB
+     1   c3     1   HEX    C1    1      0.22170     12.01000 ; qtot 0.222
+     2   c3     1   HEX    C2    2      0.22170     12.01000 ; qtot 0.443
+     3   cl     1   HEX   Cl1    3     -0.07400     35.45000 ; qtot 0.369
+     4   cl     1   HEX   Cl2    4     -0.07350     35.45000 ; qtot 0.296
+     5   cl     1   HEX   Cl3    5     -0.07420     35.45000 ; qtot 0.222
+     6   cl     1   HEX   Cl4    6     -0.07350     35.45000 ; qtot 0.148
+     7   cl     1   HEX   Cl5    7     -0.07420     35.45000 ; qtot 0.074
+     8   cl     1   HEX   Cl6    8     -0.07400     35.45000 ; qtot -0.000
+
+[ bonds ]
+;   ai     aj funct   r             k
+     1      2   1    1.5350e-01    2.5363e+05 ;     C1 - C2    
+     1      3   1    1.7860e-01    2.3347e+05 ;     C1 - Cl1   
+     1      4   1    1.7860e-01    2.3347e+05 ;     C1 - Cl2   
+     1      5   1    1.7860e-01    2.3347e+05 ;     C1 - Cl3   
+     2      6   1    1.7860e-01    2.3347e+05 ;     C2 - Cl4   
+     2      7   1    1.7860e-01    2.3347e+05 ;     C2 - Cl5   
+     2      8   1    1.7860e-01    2.3347e+05 ;     C2 - Cl6   
+
+[ pairs ]
+;   ai     aj    funct
+     4      6      1 ;    Cl2 - Cl4   
+     4      7      1 ;    Cl2 - Cl5   
+     4      8      1 ;    Cl2 - Cl6   
+     3      6      1 ;    Cl1 - Cl4   
+     3      7      1 ;    Cl1 - Cl5   
+     3      8      1 ;    Cl1 - Cl6   
+     5      6      1 ;    Cl3 - Cl4   
+     5      7      1 ;    Cl3 - Cl5   
+     5      8      1 ;    Cl3 - Cl6   
+
+[ angles ]
+;   ai     aj     ak    funct   theta         cth
+     1      2      6      1    1.1033e+02    4.8367e+02 ;     C1 - C2     - Cl4   
+     1      2      7      1    1.1033e+02    4.8367e+02 ;     C1 - C2     - Cl5   
+     1      2      8      1    1.1033e+02    4.8367e+02 ;     C1 - C2     - Cl6   
+     2      1      3      1    1.1033e+02    4.8367e+02 ;     C2 - C1     - Cl1   
+     2      1      4      1    1.1033e+02    4.8367e+02 ;     C2 - C1     - Cl2   
+     2      1      5      1    1.1033e+02    4.8367e+02 ;     C2 - C1     - Cl3   
+     3      1      4      1    1.1103e+02    4.5355e+02 ;    Cl1 - C1     - Cl2   
+     3      1      5      1    1.1103e+02    4.5355e+02 ;    Cl1 - C1     - Cl3   
+     4      1      5      1    1.1103e+02    4.5355e+02 ;    Cl2 - C1     - Cl3   
+     6      2      7      1    1.1103e+02    4.5355e+02 ;    Cl4 - C2     - Cl5   
+     6      2      8      1    1.1103e+02    4.5355e+02 ;    Cl4 - C2     - Cl6   
+     7      2      8      1    1.1103e+02    4.5355e+02 ;    Cl5 - C2     - Cl6   
+
+[ dihedrals ] ; propers
+; treated as RBs in GROMACS to use combine multiple AMBER torsions per quartet
+; i   j   k   l func   C0        C1        C2        C3        C4        C5
+  3   1   2   6   3    1.88280    1.88280    0.00000    0.00000    0.00000    0.00000 ;    Cl1-    C1-    C2-   Cl4
+  3   1   2   7   3    1.88280    1.88280    0.00000    0.00000    0.00000    0.00000 ;    Cl1-    C1-    C2-   Cl5
+  3   1   2   8   3    1.88280    1.88280    0.00000    0.00000    0.00000    0.00000 ;    Cl1-    C1-    C2-   Cl6
+  4   1   2   6   3    1.88280    1.88280    0.00000    0.00000    0.00000    0.00000 ;    Cl2-    C1-    C2-   Cl4
+  4   1   2   7   3    1.88280    1.88280    0.00000    0.00000    0.00000    0.00000 ;    Cl2-    C1-    C2-   Cl5
+  4   1   2   8   3    1.88280    1.88280    0.00000    0.00000    0.00000    0.00000 ;    Cl2-    C1-    C2-   Cl6
+  5   1   2   6   3    1.88280    1.88280    0.00000    0.00000    0.00000    0.00000 ;    Cl3-    C1-    C2-   Cl4
+  5   1   2   7   3    1.88280    1.88280    0.00000    0.00000    0.00000    0.00000 ;    Cl3-    C1-    C2-   Cl5
+  5   1   2   8   3    1.88280    1.88280    0.00000    0.00000    0.00000    0.00000 ;    Cl3-    C1-    C2-   Cl6
+
+[ system ]
+HEX in water
+
+[ molecules ]
+; Compound        nmols
+ HEX              1     
+SOL               531

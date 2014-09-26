@@ -1,0 +1,26 @@
+@<TRIPOS>MOLECULE
+methanesulfonyl_chloride
+    8     7     1     0     0
+SMALL
+No Charge or Current Charge
+
+
+@<TRIPOS>ATOM
+      1 C1          0.7070   -0.5800    0.5950 c3        1 MOL     -0.381100
+      2 O1          3.0010    0.3940    1.4090 o         1 MOL     -0.580300
+      3 O2          2.2830    0.7930   -0.9870 o         1 MOL     -0.580300
+      4 S1          2.3350   -0.0480    0.1960 s6        1 MOL      1.345500
+      5 Cl1         3.3750   -1.7140   -0.3940 cl        1 MOL     -0.219400
+      6 H1          0.5410   -0.4090    1.6600 h1        1 MOL      0.138600
+      7 H2          0.0000   -0.0000    0.0000 h1        1 MOL      0.138600
+      8 H3          0.6250   -1.6420    0.3600 h1        1 MOL      0.138600
+@<TRIPOS>BOND
+     1    1    4 1   
+     2    2    4 2   
+     3    3    4 2   
+     4    4    5 1   
+     5    1    6 1   
+     6    1    7 1   
+     7    1    8 1   
+@<TRIPOS>SUBSTRUCTURE
+     1 R0_         1 TEMP              0 ****  ****    0 ROOT

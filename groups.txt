@@ -1,0 +1,644 @@
+cid; 	 iupac; 	 groups (semicolon delimited);
+mobley_1323538; 	 triethylphosphate 	; phosphoric acid ester
+mobley_2661134; 	 3-hydroxybenzonitrile 	; phenol or hydroxyhetarene; carbonitrile; aromatic
+mobley_6929123; 	 methyl 2-chloroacetate 	; alkyl chloride; carboxylic acid ester
+mobley_3395921; 	 tetrahydropyran 	; dialkyl ether; heterocyclic
+mobley_5449201; 	 n-pentane 	; 
+mobley_5631798; 	 ammonia 	; 
+mobley_1674094; 	 hex-1-yne 	; alkyne
+mobley_9838013; 	 2-methylbutan-2-ol 	; tertiary alcohol
+mobley_1735893; 	 hexanoic acid 	; carboxylic acid
+mobley_2198613; 	 chloroethane 	; alkyl chloride
+mobley_1449384; 	 1-isopropyl-4-methyl-benzene 	; aromatic
+mobley_3682850; 	 cyclohexanone 	; ketone
+mobley_3264884; 	 naphthalen-2-amine 	; primary amine; primary aromatic amine; aromatic
+mobley_8614858; 	 heptane 	; 
+mobley_4043987; 	 2-methylhexane 	; 
+mobley_2864987; 	 pentan-2-ol 	; secondary alcohol
+mobley_859464; 	 isobutyl acetate 	; carboxylic acid ester
+mobley_3053621; 	 benzene 	; aromatic
+mobley_4689084; 	 2-acetoxyethyl acetate 	; carboxylic acid ester
+mobley_1352110; 	 pebulate 	; thiocarbamic acid ester
+mobley_4291494; 	 2-chloropyridine 	; aryl chloride; aromatic; heterocyclic
+mobley_2364370; 	 butyl acetate 	; carboxylic acid ester
+mobley_1893815; 	 1,1,1,2-tetrachloroethane 	; alkyl chloride
+mobley_5200358; 	 aldicarb 	; thioether; carbamic acid
+mobley_9246215; 	 penta-1,4-diene 	; alkene
+mobley_5110043; 	 2,6-dimethylnaphthalene 	; aromatic
+mobley_6190089; 	 1,1,2,2-tetrachloroethane 	; alkyl chloride
+mobley_6266306; 	 azetidine 	; secondary amine; secondary aliphatic amine (dialkylamine); heterocyclic
+mobley_4219614; 	 1,2,3,4-tetrachlorobenzene 	; aryl chloride; aromatic
+mobley_9246351; 	 dibromomethane 	; alkyl bromide
+mobley_8011706; 	 N,N-dimethylformamide 	; tertiary carboxylic acid amide
+mobley_2577969; 	 pyrene 	; aromatic
+mobley_9942801; 	 1-ethyl-4-methyl-benzene 	; aromatic
+mobley_7578802; 	 bromoform 	; halogen derivative
+mobley_8861672; 	 2,4-dimethylpyridine 	; aromatic; heterocyclic
+mobley_194273; 	 bromacil 	; aryl bromide; oxo(het)arene; aromatic; heterocyclic
+mobley_1244778; 	 cycloheptanol 	; secondary alcohol
+mobley_468867; 	 heptachlor 	; alkyl chloride; alkene
+mobley_8827942; 	 1,2,4-trichlorodibenzo-p-dioxin 	; diaryl ether; aryl chloride; aromatic; heterocyclic
+mobley_3738859; 	 1-bromo-pentane 	; alkyl bromide
+mobley_8427539; 	 propionamide 	; primary carboxylic acid amide
+mobley_1107178; 	 iodoethane 	; alkyl iodide
+mobley_2789243; 	 3-chloropyridine 	; aryl chloride; aromatic; heterocyclic
+mobley_2008055; 	 ethane 	; 
+mobley_1873346; 	 toluene 	; aromatic
+mobley_7794077; 	 5-trifluoromethyluracil 	; halogen derivative; oxo(het)arene; aromatic; heterocyclic
+mobley_1849020; 	 4-chlorophenyl)sulfanylmethylsulfanyl-diethoxy-thioxo-$l^{5}-phosphane 	; aryl chloride; thiophosphoric acid ester; aromatic
+mobley_8798016; 	 pyridine-4-carbaldehyde 	; aldehyde; aromatic; heterocyclic
+mobley_5157661; 	 isobutane 	; 
+mobley_6201330; 	 propyl paraben 	; phenol or hydroxyhetarene; carboxylic acid ester; aromatic
+mobley_4620651; 	 methyl cyclopropanecarboxylate 	; carboxylic acid ester
+mobley_9717937; 	 1-chloro-2-phenyl-benzene 	; aryl chloride; aromatic
+mobley_6861308; 	 fenuron 	; urea; aromatic
+mobley_4630641; 	 1,2-dimethoxyethane 	; dialkyl ether
+mobley_2636578; 	 3-nitrooxypropyl nitrate 	; anion
+mobley_5571660; 	 2,6-dimethylaniline 	; primary amine; primary aromatic amine; aromatic
+mobley_7690440; 	 methyldisulfanylmethane 	; disulfide
+mobley_7463799; 	 3-phenylpropan-1-ol 	; primary alcohol; aromatic
+mobley_4479135; 	 1,1-diphenylethene 	; alkene; aromatic
+mobley_7176248; 	 trifluralin 	; tertiary amine; tertiary aliphatic/aromatic amine (alkylarylamine); halogen derivative; nitro; aromatic
+mobley_2295058; 	 methyl paraben 	; phenol or hydroxyhetarene; carboxylic acid ester; aromatic
+mobley_819018; 	 (2E)-3,7-dimethylocta-2,6-dien-1-ol 	; primary alcohol; alkene
+mobley_1976156; 	 nonanal 	; aldehyde
+mobley_2197088; 	 decane 	; 
+mobley_627267; 	 1-bromo-2-methyl-propane 	; alkyl bromide
+mobley_7415647; 	 N,N-dimethyl-4-nitro-benzamide 	; tertiary carboxylic acid amide; nitro; aromatic
+mobley_6812653; 	 hexane 	; 
+mobley_5052949; 	 1-propylsulfanylpropane 	; thioether
+mobley_3151666; 	 decan-1-ol 	; primary alcohol
+mobley_1659169; 	 morpholine 	; dialkyl ether; secondary amine; secondary aliphatic amine (dialkylamine); heterocyclic
+mobley_9534740; 	 (2R,3R,4S,5S,6R)-6-(hydroxymethyl)tetrahydropyran-2,3,4,5-tetrol 	; hemiacetal; primary alcohol; secondary alcohol; 1,2-diol; heterocyclic
+mobley_994483; 	 bromoethane 	; alkyl bromide
+mobley_1189457; 	 methylsulfanylbenzene 	; thioether; aromatic
+mobley_8260524; 	 prop-1-yne 	; alkyne
+mobley_646007; 	 pyrrolidine 	; secondary amine; secondary aliphatic amine (dialkylamine); heterocyclic
+mobley_8436428; 	 2,4-dimethylpentane 	; 
+mobley_6804509; 	 1,2,4,5-tetrachlorobenzene 	; aryl chloride; aromatic
+mobley_6843802; 	 1,2,2-trifluoroethoxybenzene 	; alkyl fluoride; aromatic
+mobley_1922649; 	 methylparathion 	; nitro; thiophosphoric acid ester; aromatic
+mobley_632905; 	 1-(4-methoxyphenyl)ethanone 	; ketone; alkyl aryl ether; aromatic
+mobley_4039055; 	 5-bromouracil 	; aryl bromide; oxo(het)arene; aromatic; heterocyclic
+mobley_4934872; 	 diethoxymethoxybenzene 	; orthocarboxylic acid derivative; orthoester; aromatic
+mobley_4683624; 	 4-propylphenol 	; phenol or hydroxyhetarene; aromatic
+mobley_6619554; 	 ethyl pentanoate 	; carboxylic acid ester
+mobley_486214; 	 2,6-dimethoxyphenol 	; phenol or hydroxyhetarene; alkyl aryl ether; aromatic
+mobley_8426916; 	 N-ethylethanamine 	; secondary amine; secondary aliphatic amine (dialkylamine)
+mobley_550662; 	 1,1,1-trimethoxyethane 	; orthocarboxylic acid derivative; orthoester
+mobley_755351; 	 3-methoxyaniline 	; alkyl aryl ether; primary amine; primary aromatic amine; aromatic
+mobley_2751110; 	 4-nitrophenol 	; phenol or hydroxyhetarene; nitro; aromatic
+mobley_5977084; 	 3-methylpyridine 	; aromatic; heterocyclic
+mobley_5816127; 	 2-methoxyethanol 	; primary alcohol; dialkyl ether
+mobley_6257907; 	 3-chloroaniline 	; primary amine; primary aromatic amine; aryl chloride; aromatic
+mobley_1963873; 	 N-methylacetamide 	; secondary carboxylic acid amide
+mobley_7015518; 	 methoxymethane 	; dialkyl ether
+mobley_6195751; 	 2,6-dichlorosyringaldehyde 	; aldehyde; phenol or hydroxyhetarene; alkyl aryl ether; aryl chloride; aromatic
+mobley_5390332; 	 methyl butanoate 	; carboxylic acid ester
+mobley_1017962; 	 methyl hexanoate 	; carboxylic acid ester
+mobley_5538249; 	 1,3,5-trichloro-2-phenyl-benzene 	; aryl chloride; aromatic
+mobley_9741965; 	 1,3-bis-(nitrooxy)butane 	; anion
+mobley_5616693; 	 (2S,5R)-2-isopropyl-5-methylcyclohexanone 	; ketone
+mobley_9114381; 	 methyl 2-cyanoacetate 	; carboxylic acid ester; carbonitrile
+mobley_9209581; 	 N,N-dimethylmethanamine 	; tertiary amine; tertiary aliphatic amine (trialkylamine)
+mobley_52782; 	 1,2-dinitroxyethane 	; nitrate
+mobley_3515580; 	 2-methoxyphenol 	; phenol or hydroxyhetarene; alkyl aryl ether; aromatic
+mobley_1571523; 	 2,3-dimethylphenol 	; phenol or hydroxyhetarene; aromatic
+mobley_2023925; 	 2-chloro-2-(difluoromethoxy)-1,1,1-trifluoro-ethane 	; alkyl chloride; orthocarboxylic acid derivative
+mobley_8785107; 	 2,5-dimethyltetrahydrofuran 	; dialkyl ether; heterocyclic
+mobley_2881590; 	 isobutyl nitrate 	; nitrate
+mobley_313406; 	 propan-1-ol 	; primary alcohol
+mobley_3274817; 	 2-[(1R)-1-methylpropyl]-4,6-dinitro-phenolate 	; phenol or hydroxyhetarene; nitro; aromatic
+mobley_9979854; 	 111-trifluoropropan-2-ol 	; secondary alcohol; halogen derivative
+mobley_2126135; 	 2-ethylphenol 	; phenol or hydroxyhetarene; aromatic
+mobley_6743808; 	 3,4-dimethylphenol 	; phenol or hydroxyhetarene; aromatic
+mobley_2493732; 	 1,1-dichloroethylene 	; ketene acetal or derivative; halogen derivative
+mobley_9407874; 	 octan-2-one 	; ketone
+mobley_7142697; 	 pentan-1-amine 	; primary amine; primary aliphatic amine (alkylamine)
+mobley_8311303; 	 1,2,4,5-tetrachloro-3-(3,4-dichlorophenyl)benzene 	; aryl chloride; aromatic
+mobley_49274; 	 hept-1-yne 	; alkyne
+mobley_4694328; 	 octanal 	; aldehyde
+mobley_7913234; 	 1-butoxy-2-propanol 	; secondary alcohol; dialkyl ether
+mobley_2763835; 	 ethoxybenzene 	; alkyl aryl ether; aromatic
+mobley_951560; 	 piperazine 	; secondary amine; secondary aliphatic amine (dialkylamine); heterocyclic
+mobley_3211679; 	 cyclohexene 	; alkene
+mobley_6359156; 	 1,4-dichloro-2-phenyl-benzene 	; aryl chloride; aromatic
+mobley_3234716; 	 p-xylene 	; aromatic
+mobley_5286200; 	 1,4-dichlorobutane 	; alkyl chloride
+mobley_2727678; 	 5-iodouracil 	; aryl iodide; oxo(het)arene; aromatic; heterocyclic
+mobley_6973347; 	 ethyl acetate 	; carboxylic acid ester
+mobley_9617923; 	 decan-2-one 	; ketone
+mobley_6309289; 	 piperidine 	; secondary amine; secondary aliphatic amine (dialkylamine); heterocyclic
+mobley_1235151; 	 1-nitropentane 	; nitro
+mobley_2689721; 	 cyclohexane 	; 
+mobley_820789; 	 butyric acid 	; carboxylic acid
+mobley_1838110; 	 1,1,2-trichloro-1,2,2-trifluoro-ethane 	; halogen derivative
+mobley_3083321; 	 dimethoxymethane 	; acetal
+mobley_3572203; 	 pentyl propanoate 	; carboxylic acid ester
+mobley_3843583; 	 naphthalen-1-amine 	; primary amine; primary aromatic amine; aromatic
+mobley_8127829; 	 ethylbenzene 	; aromatic
+mobley_7983227; 	 2-methylbutan-1-ol 	; primary alcohol
+mobley_2390199; 	 heptan-4-one 	; ketone
+mobley_2960202; 	 1,2,3,4,7,8-hexachlorodibenzo-p-dioxin 	; diaryl ether; aryl chloride; aromatic; heterocyclic
+mobley_5326154; 	 N,N-dimethylaniline 	; tertiary amine; tertiary aliphatic/aromatic amine (alkylarylamine); aromatic
+mobley_7176290; 	 3-nitrophenol 	; phenol or hydroxyhetarene; nitro; aromatic
+mobley_6334915; 	 (1R)-2,2,2-trichloro-1-dimethoxyphosphoryl-ethanol 	; halogen derivative; phosphonic acid derivative; phosphonic acid ester
+mobley_6497672; 	 but-2-enal 	; aldehyde; alkene
+mobley_5665561; 	 1,3-dimethylnaphthalene 	; aromatic
+mobley_4850657; 	 methanesulfonyl chloride 	; sulfonyl halide
+mobley_8809190; 	 butylbenzene 	; aromatic
+mobley_1743409; 	 diethyl butanedioate 	; carboxylic acid ester
+mobley_900088; 	 2,3-dimethylbuta-1,3-diene 	; alkene
+mobley_5759258; 	 pentan-1-ol 	; primary alcohol
+mobley_7608435; 	 methyl octanoate 	; carboxylic acid ester
+mobley_3006808; 	 2,2,2-trifluoroethanol 	; primary alcohol; halogen derivative
+mobley_6303022; 	 4-ethylpyridine 	; aromatic; heterocyclic
+mobley_7047032; 	 2-chloro-2-methyl-propane 	; alkyl chloride
+mobley_1708457; 	 methylsulfonylmethane 	; sulfone
+mobley_1079207; 	 1,3-dichlorobenzene 	; aryl chloride; aromatic
+mobley_8573194; 	 butanal 	; aldehyde
+mobley_7375018; 	 undecan-2-one 	; ketone
+mobley_4792268; 	 pentanoic acid 	; carboxylic acid
+mobley_1520842; 	 4-methylpyridine 	; aromatic; heterocyclic
+mobley_5520946; 	 benzenethiol 	; thiol (sulfanyl); arylthiol (thiophenol); aromatic
+mobley_2005792; 	 biphenyl 	; aromatic
+mobley_7688753; 	 3-hydroxybenzaldehyde 	; aldehyde; phenol or hydroxyhetarene; aromatic
+mobley_1723043; 	 octafluorocyclobutane 	; alkyl fluoride
+mobley_7860938; 	 N-butylbutan-1-amine 	; secondary amine; secondary aliphatic amine (dialkylamine)
+mobley_4845722; 	 hexachlorobenzene 	; aryl chloride; aromatic
+mobley_3709920; 	 non-1-ene 	; alkene
+mobley_7542832; 	 1-propoxypropane 	; dialkyl ether
+mobley_2492140; 	 1,1,1,2,2-pentachloroethane 	; alkyl chloride
+mobley_8899867; 	 cyclopentanol 	; secondary alcohol
+mobley_5371840; 	 2-chlorodibenzo-p-dioxin 	; diaryl ether; aryl chloride; aromatic; heterocyclic
+mobley_2929847; 	 3-methylbutanoic acid 	; carboxylic acid
+mobley_8006582; 	 cyclopentane 	; 
+mobley_2146331; 	 formaldehyde 	; aldehyde
+mobley_2099370; 	 ketoprofen 	; ketone; carboxylic acid; aromatic
+mobley_3968043; 	 cyclopentanone 	; ketone
+mobley_3323117; 	 sulfolane 	; cation; heterocyclic
+mobley_4043951; 	 pent-1-ene 	; alkene
+mobley_8705848; 	 N-isopropylpropan-2-amine 	; secondary amine; secondary aliphatic amine (dialkylamine)
+mobley_2484519; 	 benzyl chloride 	; alkyl chloride; aromatic
+mobley_547634; 	 2,3-dimethylnaphthalene 	; aromatic
+mobley_8311321; 	 chloro-difluoro-methane 	; halogen derivative
+mobley_3318135; 	 nonan-5-one 	; ketone
+mobley_3761215; 	 1,1,1-trichloroethane 	; halogen derivative
+mobley_282648; 	 naphthalene 	; aromatic
+mobley_3183805; 	 1,2,4-trimethylbenzene 	; aromatic
+mobley_1717215; 	 methyl formate 	; carboxylic acid ester
+mobley_5600967; 	 4-methoxy-N,N-dimethyl-benzamide 	; alkyl aryl ether; tertiary carboxylic acid amide; aromatic
+mobley_6794076; 	 1-(4-pyridyl)ethanone 	; ketone; aromatic; heterocyclic
+mobley_6055410; 	 diflunisal 	; phenol or hydroxyhetarene; aryl fluoride; carboxylic acid; aromatic
+mobley_7455579; 	 isobutyl formate 	; carboxylic acid ester
+mobley_7393673; 	 methyl 4-methoxybenzoate 	; alkyl aryl ether; carboxylic acid ester; aromatic
+mobley_7676709; 	 6-isopropyl-3-methyl-1-cyclohex-2-enone 	; ketone; alkene
+mobley_2845466; 	 2,3,7,8-tetrachlorodibenzo-p-dioxin 	; diaryl ether; aryl chloride; aromatic; heterocyclic
+mobley_9197172; 	 oct-1-ene 	; alkene
+mobley_9055303; 	 methane 	; 
+mobley_6935906; 	 (3R)-3,7-Dimethylocta-1,6-dien-3-yl acetate 	; carboxylic acid ester; alkene
+mobley_7239499; 	 1-chlorodibenzo-p-dioxin 	; diaryl ether; aryl chloride; aromatic; heterocyclic
+mobley_4193752; 	 nitrobenzene 	; nitro; aromatic
+mobley_2844990; 	 1,2,3,7-tetrachlorodibenzo-p-dioxin 	; diaryl ether; aryl chloride; aromatic; heterocyclic
+mobley_2925352; 	 p-cresol 	; phenol or hydroxyhetarene; aromatic
+mobley_5346580; 	 3,3-dimethylbutan-2-one 	; ketone
+mobley_1923244; 	 n-butane 	; 
+mobley_3690931; 	 propyl butanoate 	; carboxylic acid ester
+mobley_6359135; 	 carbon tetrachloride 	; halogen derivative
+mobley_1857976; 	 1,2-dichloroethane 	; alkyl chloride
+mobley_718988; 	 heptan-1-amine 	; primary amine; primary aliphatic amine (alkylamine)
+mobley_1160109; 	 (2R,5R)-2-methyl-5-(1-methylethenyl)-cyclohexanone 	; ketone; alkene
+mobley_4584540; 	 2,6-dimethylpyridine 	; aromatic; heterocyclic
+mobley_7573149; 	 propyl acetate 	; carboxylic acid ester
+mobley_7758918; 	 propionic acid 	; carboxylic acid
+mobley_1178614; 	 2-chlorophenol 	; phenol or hydroxyhetarene; aryl chloride; aromatic
+mobley_4218209; 	 4-methoxyaniline 	; alkyl aryl ether; primary amine; primary aromatic amine; aromatic
+mobley_7988076; 	 4-hydroxybenzaldehyde 	; aldehyde; phenol or hydroxyhetarene; aromatic
+mobley_6854178; 	 isopropyl formate 	; carboxylic acid ester
+mobley_6175884; 	 4-methylbenzaldehyde 	; aldehyde; aromatic
+mobley_6235784; 	 2-chlorobutane 	; alkyl chloride
+mobley_9100956; 	 methylcyclohexane 	; 
+mobley_5026370; 	 pyridine-4-carbonitrile 	; carbonitrile; aromatic; heterocyclic
+mobley_3762186; 	 dichloromethane 	; alkyl chloride
+mobley_1977493; 	 1-chloropropane 	; alkyl chloride
+mobley_9626434; 	 2-ethoxyethanol 	; primary alcohol; dialkyl ether
+mobley_1396156; 	 pentachloronitrobenzene 	; aryl chloride; nitro; aromatic
+mobley_9507933; 	 2,5-dimethylpyridine 	; aromatic; heterocyclic
+mobley_9913368; 	 (E)-1,2-dichloroethylene 	; halogen derivative; alkene
+mobley_3167746; 	 octane 	; 
+mobley_2725802; 	 1-pyrrolidin-1-ylethanone 	; tertiary carboxylic acid amide; heterocyclic
+mobley_4678740; 	 m-bis(trifluoromethyl)benzene 	; halogen derivative; aromatic
+mobley_242480; 	 1,4-diamino-9,10-anthracenedione 	; ketone; primary amine; primary aromatic amine; aromatic
+mobley_5445548; 	 cumene 	; aromatic
+mobley_8823527; 	 1,2,3-trichloro-5-(2,5-dichlorophenyl)benzene 	; aryl chloride; aromatic
+mobley_1019269; 	 butan-1-ol 	; primary alcohol
+mobley_1755375; 	 2,6-dimethylphenol 	; phenol or hydroxyhetarene; aromatic
+mobley_4371692; 	 1-amino-4-hydroxy-9,10-anthracenedione 	; ketone; phenol or hydroxyhetarene; primary amine; primary aromatic amine; aromatic
+mobley_1139153; 	 2,2,4-trimethylpentane 	; 
+mobley_5471704; 	 isopentyl acetate 	; carboxylic acid ester
+mobley_6060301; 	 hexan-1-amine 	; primary amine; primary aliphatic amine (alkylamine)
+mobley_588781; 	 hexylbenzene 	; aromatic
+mobley_2354112; 	 3-ethylphenol 	; phenol or hydroxyhetarene; aromatic
+mobley_8772587; 	 1-iodobutane 	; alkyl iodide
+mobley_5456566; 	 1,2,3,4,5-pentachloro-6-(2,3,4,5,6-pentachlorophenyl)benzene 	; aryl chloride; aromatic
+mobley_2371092; 	 3,4-dimethylpyridine 	; aromatic; heterocyclic
+mobley_1328936; 	 methyl 4-nitrobenzoate 	; carboxylic acid ester; nitro; aromatic
+mobley_5499659; 	 1-methylimidazole 	; aromatic; heterocyclic
+mobley_2792521; 	 (2E)-hex-2-enal 	; aldehyde; alkene
+mobley_9974966; 	 2-isopropylsulfanylpropane 	; thioether
+mobley_6733657; 	 chlordane 	; alkyl chloride; alkene
+mobley_6082662; 	 4-nitroaniline 	; primary amine; primary aromatic amine; nitro; aromatic
+mobley_2310185; 	 ethanol 	; primary alcohol
+mobley_7099614; 	 3-chloroprop-1-ene 	; alkyl chloride; alkene
+mobley_7859387; 	 heptanal 	; aldehyde
+mobley_63712; 	 1-methylpiperidine 	; tertiary amine; tertiary aliphatic amine (trialkylamine); heterocyclic
+mobley_3060426; 	 2,2,5-trimethylhexane 	; 
+mobley_7360181; 	 1,1,1-trifluoro-2,2,2-trimethoxyethane 	; halogen derivative; orthocarboxylic acid derivative; orthoester
+mobley_5282042; 	 Amitriptyline 	; tertiary amine; tertiary aliphatic amine (trialkylamine); alkene; aromatic
+mobley_2607611; 	 hexyl acetate 	; carboxylic acid ester
+mobley_1036761; 	 cyclohexanamine 	; primary amine; primary aliphatic amine (alkylamine)
+mobley_4893032; 	 pentanenitrile 	; carbonitrile
+mobley_8558116; 	 4-methylmorpholine 	; dialkyl ether; tertiary amine; tertiary aliphatic amine (trialkylamine); heterocyclic
+mobley_5518547; 	 4-methylaniline 	; primary amine; primary aromatic amine; aromatic
+mobley_3378420; 	 nonan-1-ol 	; primary alcohol
+mobley_9794857; 	 2-methoxy-2-methyl-propane 	; dialkyl ether
+mobley_6456034; 	 isobutyl 2-methylpropanoate 	; carboxylic acid ester
+mobley_3573480; 	 heptan-2-one 	; ketone
+mobley_676247; 	 tetrafluoromethane 	; halogen derivative
+mobley_5760563; 	 dimethyl sulfate 	; sulfuric acid diester
+mobley_8754702; 	 propyl formate 	; carboxylic acid ester
+mobley_1424265; 	 m-xylene 	; aromatic
+mobley_3169935; 	 2-chloroaniline 	; primary amine; primary aromatic amine; aryl chloride; aromatic
+mobley_5311804; 	 phenylmethanol 	; primary alcohol; aromatic
+mobley_6115639; 	 trimethyl phosphate 	; phosphoric acid ester
+mobley_6714389; 	 methanamine 	; primary amine; primary aliphatic amine (alkylamine)
+mobley_9015240; 	 1-bromooctane 	; alkyl bromide
+mobley_1417007; 	 captan 	; halogen derivative; carboxylic acid imide, N-substituted; alkene; heterocyclic
+mobley_2681549; 	 1,3,5-trichlorobenzene 	; aryl chloride; aromatic
+mobley_4287564; 	 2-methylpyridine 	; aromatic; heterocyclic
+mobley_2043882; 	 1-cyclohexylethanone 	; ketone
+mobley_352111; 	 2-acetoxyethyl acetate 	; carboxylic acid ester
+mobley_3686115; 	 1,1-diethoxyethane 	; acetal
+mobley_8337722; 	 (1R,2S,5R)-2-isopropyl-5-methylcyclohexanol 	; secondary alcohol
+mobley_7326706; 	 chlorpyrifos 	; aryl chloride; thiophosphoric acid ester; aromatic; heterocyclic
+mobley_3144334; 	 2,5-dimethylphenol 	; phenol or hydroxyhetarene; aromatic
+mobley_7608462; 	 chlorobenzene 	; aryl chloride; aromatic
+mobley_2078467; 	 ibuprofen 	; carboxylic acid; aromatic
+mobley_5973402; 	 3-methylbutan-1-ol 	; primary alcohol
+mobley_6353617; 	 1-(3-pyridyl)ethanone 	; ketone; aromatic; heterocyclic
+mobley_2261979; 	 acenaphthene 	; aromatic
+mobley_4715906; 	 1,2-dimethylcyclohexane 	; 
+mobley_5952846; 	 1,1,2,2-tetrachloroethylene 	; halogen derivative
+mobley_1903702; 	 butan-2-ol 	; secondary alcohol
+mobley_5220185; 	 2-ethylpyrazine 	; aromatic; heterocyclic
+mobley_5510474; 	 1,2,3,4-tetrachlorodibenzo-p-dioxin 	; diaryl ether; aryl chloride; aromatic; heterocyclic
+mobley_3980099; 	 1,2,3-trichlorobenzene 	; aryl chloride; aromatic
+mobley_2501588; 	 profluralin 	; tertiary amine; tertiary aliphatic/aromatic amine (alkylarylamine); halogen derivative; nitro; aromatic
+mobley_3968739; 	 methyl benzoate 	; carboxylic acid ester; aromatic
+mobley_9897248; 	 (2Z)-3,7-dimethylocta-2,6-dien-1-ol 	; primary alcohol; alkene
+mobley_3727287; 	 quinone 	; ketone; alkene
+mobley_4924862; 	 isopentyl formate 	; carboxylic acid ester
+mobley_6620221; 	 carbofuran 	; alkyl aryl ether; carbamic acid ester (urethane); aromatic; heterocyclic
+mobley_3370989; 	 1,1-difluoroethane 	; alkyl fluoride
+mobley_6232400; 	 pyridine-3-carbaldehyde 	; aldehyde; aromatic; heterocyclic
+mobley_5056289; 	 2-methyltetrahydrofuran 	; dialkyl ether; heterocyclic
+mobley_6358463; 	 1,2-bis(trifluoromethyl)benzene 	; halogen derivative; aromatic
+mobley_1261349; 	 neopentane 	; 
+mobley_1363784; 	 3,5-dimethylpyridine 	; aromatic; heterocyclic
+mobley_628086; 	 1,1,1-trifluoropropan-2-ol 	; secondary alcohol; halogen derivative
+mobley_7599023; 	 bromobenzene 	; aryl bromide; aromatic
+mobley_7039935; 	 naphthalen-1-ol 	; phenol or hydroxyhetarene; aromatic
+mobley_1662128; 	 but-1-ene 	; alkene
+mobley_9510785; 	 1,2,3,4-tetrachloro-5-phenyl-benzene 	; aryl chloride; aromatic
+mobley_4465023; 	 (Z)-1,2-dichloroethylene 	; halogen derivative; alkene
+mobley_4364398; 	 iodomethane 	; alkyl iodide
+mobley_6917738; 	 2-methoxyethanamine 	; dialkyl ether; primary amine; primary aliphatic amine (alkylamine)
+mobley_7943327; 	 ethyl propanoate 	; carboxylic acid ester
+mobley_8118832; 	 prop-2-en-1-ol 	; primary alcohol; alkene
+mobley_5076071; 	 1-N,1-N-diethyl-2,6-dinitro-4-(trifluoromethyl)benzene-1,3-diamine 	; primary amine; primary aromatic amine; tertiary amine; tertiary aliphatic/aromatic amine (alkylarylamine); halogen derivative; nitro; aromatic
+mobley_20524; 	 phenol 	; phenol or hydroxyhetarene; aromatic
+mobley_7378987; 	 caffeine 	; oxo(het)arene; aromatic; heterocyclic
+mobley_7227357; 	 pentan-3-ol 	; secondary alcohol
+mobley_9139060; 	 1,4-dimethylcyclohexane 	; 
+mobley_2996632; 	 chloroform 	; halogen derivative
+mobley_9073553; 	 methylsulfanylmethane 	; thioether
+mobley_397645; 	 ethyl benzoate 	; carboxylic acid ester; aromatic
+mobley_2518989; 	 dialifor 	; alkyl chloride; carboxylic acid imide, N-substituted; thiophosphoric acid ester; aromatic; heterocyclic
+mobley_3047364; 	 2-N-ethyl-6-(methylsulfanyl)-4-N-(propan-2-yl)-1,3,5-triazine-2,4-diamine 	; thioether; secondary amine; secondary aliphatic/aromatic amine (alkylarylamine); aromatic; heterocyclic
+mobley_5857; 	 quinoline 	; aromatic; heterocyclic
+mobley_197466; 	 1-cyclopropylethanone 	; ketone
+mobley_2068538; 	 propane 	; 
+mobley_967099; 	 2-nitropropane 	; nitro
+mobley_1792062; 	 1,2-dibromoethane 	; alkyl bromide
+mobley_7203421; 	 hexanamide 	; primary carboxylic acid amide
+mobley_7912193; 	 butyl paraben 	; phenol or hydroxyhetarene; carboxylic acid ester; aromatic
+mobley_7200804; 	 2-fluorophenol 	; phenol or hydroxyhetarene; aryl fluoride; aromatic
+mobley_7814642; 	 1,2,4-trichlorobenzene 	; aryl chloride; aromatic
+mobley_5094777; 	 indane 	; aromatic
+mobley_4561957; 	 2,3-dimethylbutane 	; 
+mobley_5852491; 	 methylcyclopentane 	; 
+mobley_1987439; 	 mesitylene 	; aromatic
+mobley_8492526; 	 pentanal 	; aldehyde
+mobley_4494568; 	 1-bromo-4-methyl-benzene 	; aryl bromide; aromatic
+mobley_7869158; 	 [(2S)-butan-2-yl] nitrate 	; nitrate
+mobley_7893124; 	 tert-butylbenzene 	; aromatic
+mobley_5880265; 	 2-butoxyethanol 	; primary alcohol; dialkyl ether
+mobley_8691603; 	 m-cresol 	; phenol or hydroxyhetarene; aromatic
+mobley_2693089; 	 2-isobutylpyrazine 	; aromatic; heterocyclic
+mobley_8525830; 	 1-iodopentane 	; alkyl iodide
+mobley_6239320; 	 cyanuric acid 	; oxo(het)arene; aromatic; heterocyclic
+mobley_4506634; 	 2-bromo-2-chloro-1,1,1-trifluoro-ethane 	; alkyl chloride; alkyl bromide
+mobley_6430250; 	 propylbenzene 	; aromatic
+mobley_8685905; 	 2-bromo-1,1,1,2-tetrafluoro-ethane 	; alkyl fluoride; alkyl bromide
+mobley_2451097; 	 benzonitrile 	; carbonitrile; aromatic
+mobley_6102880; 	 diphenyl ether 	; diaryl ether; aromatic
+mobley_337666; 	 5-fluorouracil 	; aryl fluoride; oxo(het)arene; aromatic; heterocyclic
+mobley_1893937; 	 1-chlorohexane 	; alkyl chloride
+mobley_1827204; 	 hexanal 	; aldehyde
+mobley_2913224; 	 acetylsalicylic acid 	; carboxylic acid; carboxylic acid ester; aromatic
+mobley_5561855; 	 1,3,5-trichloro-2-(2,6-dichlorophenyl)benzene 	; aryl chloride; aromatic
+mobley_1592519; 	 ethyl hexanoate 	; carboxylic acid ester
+mobley_2517158; 	 1-bromoheptane 	; alkyl bromide
+mobley_6250025; 	 1-iodohexane 	; alkyl iodide
+mobley_8789864; 	 3,3,3-trimethoxypropanenitrile 	; carbonitrile; orthocarboxylic acid derivative; orthoester
+mobley_3325209; 	 trimethoxymethylbenzene 	; orthocarboxylic acid derivative; orthoester; aromatic
+mobley_1875719; 	 pentan-3-one 	; ketone
+mobley_9112978; 	 pent-2-ene 	; alkene
+mobley_5692472; 	 N-methylmethanamine 	; secondary amine; secondary aliphatic amine (dialkylamine)
+mobley_2972345; 	 9,10-dihydroanthracene 	; aromatic
+mobley_3976574; 	 1,2,3,4,7-pentachlorodibenzo-p-dioxin 	; diaryl ether; aryl chloride; aromatic; heterocyclic
+mobley_8966374; 	 2-methylpyrazine 	; aromatic; heterocyclic
+mobley_2328633; 	 pentylcyclopentane 	; 
+mobley_7298388; 	 1-methyl-3-nitro-benzene 	; nitro; aromatic
+mobley_3269819; 	 1,2,3,4-tetrachloro-5-(3,4,5-trichlorophenyl)benzene 	; aryl chloride; aromatic
+mobley_3802803; 	 hexyl nitrate 	; anion
+mobley_7497999; 	 1-phenylethanone 	; ketone; aromatic
+mobley_8208692; 	 1,2,3,4-tetrachloro-5-(2,3,4,6-tetrachlorophenyl)benzene 	; aryl chloride; aromatic
+mobley_1199854; 	 1-iodopropane 	; alkyl iodide
+mobley_3867265; 	 acetone 	; ketone
+mobley_5072416; 	 2-methoxyaniline 	; alkyl aryl ether; primary amine; primary aromatic amine; aromatic
+mobley_2489709; 	 1,2-dichlorobenzene 	; aryl chloride; aromatic
+mobley_2481002; 	 trichloro(nitro)methane 	; halogen derivative
+mobley_1034539; 	 1,2,3,4-tetrachloro-5-(3,4-dichlorophenyl)benzene 	; aryl chloride; aromatic
+mobley_9460824; 	 diethoxy-(ethylsulfanylmethylsulfanyl)-thioxo-$l^{5}-phosphane 	; thiophosphoric acid ester
+mobley_8882696; 	 tetrahydrofuran 	; dialkyl ether; heterocyclic
+mobley_8916409; 	 diethyl (2R)-2-dimethoxyphosphinothioylsulfanylbutanedioate 	; carboxylic acid ester; thiophosphoric acid ester
+mobley_1770205; 	 3-(dimethoxyphosphinothioylsulfanylmethyl)-1,2,3-benzotriazin-4-one 	; oxo(het)arene; thiophosphoric acid ester; aromatic; heterocyclic
+mobley_3982371; 	 methyl acetate 	; carboxylic acid ester
+mobley_2659552; 	 N,N-4-trimethylbenzamide 	; tertiary carboxylic acid amide; aromatic
+mobley_2422586; 	 1-methoxypropane 	; dialkyl ether
+mobley_2725215; 	 nitralin 	; tertiary amine; tertiary aliphatic/aromatic amine (alkylarylamine); nitro; sulfone; aromatic
+mobley_9571888; 	 endosulfan alpha 	; alkyl chloride; alkene; heterocyclic
+mobley_3777264; 	 3-nitroaniline 	; primary amine; primary aromatic amine; nitro; aromatic
+mobley_6006813; 	 1-nitrobutane 	; nitro
+mobley_1636752; 	 methanol 	; primary alcohol
+mobley_3525176; 	 pentylbenzene 	; aromatic
+mobley_1905088; 	 benzyl bromide 	; alkyl bromide; aromatic
+mobley_637522; 	 anthracene 	; aromatic
+mobley_1615431; 	 2-isopropoxypropane 	; dialkyl ether
+mobley_9281946; 	 diethoxy-(4-nitrophenoxy)-thioxo-$l^{5}-phosphane 	; nitro; thiophosphoric acid ester; aromatic
+mobley_1469079; 	 2,3-dichlorodibenzo-p-dioxin 	; diaryl ether; aryl chloride; aromatic; heterocyclic
+mobley_4603202; 	 1-chloro-2-(2-chloroethoxy)ethane 	; dialkyl ether; alkyl chloride
+mobley_2341732; 	 methyl pentanoate 	; carboxylic acid ester
+mobley_6981465; 	 isopropyl acetate 	; carboxylic acid ester
+mobley_1527293; 	 flurbiprofen 	; aryl fluoride; carboxylic acid; aromatic
+mobley_5732611; 	 4-methyl-1H-imidazole 	; aromatic; heterocyclic
+mobley_3259411; 	 glycerol 	; primary alcohol; secondary alcohol; 1,2-diol
+mobley_5393242; 	 diazinon 	; thiophosphoric acid ester; aromatic; heterocyclic
+mobley_9624458; 	 1,3-dichloropropane 	; alkyl chloride
+mobley_2316618; 	 1-(2-hydroxyethylamino)-9,10-anthraquinone 	; ketone; primary alcohol; 1,2-aminoalcohol; secondary amine; secondary aliphatic/aromatic amine (alkylarylamine); aromatic
+mobley_349850; 	 1-(p-tolyl)ethanone 	; ketone; aromatic
+mobley_186894; 	 propanethiol 	; thiol (sulfanyl); alkylthiol
+mobley_7463408; 	 N-(3,4-dichlorophenyl)propanimidic acid 	; aryl chloride; secondary carboxylic acid amide; aromatic
+mobley_4609460; 	 ethyl paraben 	; phenol or hydroxyhetarene; carboxylic acid ester; aromatic
+mobley_2049967; 	 methylsulfanylethane 	; thioether
+mobley_4759887; 	 1-iodoheptane 	; alkyl iodide
+mobley_2850833; 	 2-hydroxybenzaldehyde 	; aldehyde; phenol or hydroxyhetarene; aromatic
+mobley_511661; 	 butadiene 	; alkene
+mobley_4463913; 	 1-acetoxyethyl acetate 	; carboxylic acid ester
+mobley_6632459; 	 propanal 	; aldehyde
+mobley_2183616; 	 sec-butylbenzene 	; aromatic
+mobley_6416775; 	 propylcyclopentane 	; 
+mobley_902954; 	 butyl nitrate 	; nitrate
+mobley_2523689; 	 5-Amino-4-chloro-2-phenylpyridazin-3(2H)-one 	; primary amine; primary aromatic amine; aryl chloride; oxo(het)arene; aromatic; heterocyclic
+mobley_3969312; 	 benzaldehyde 	; aldehyde; aromatic
+mobley_6248915; 	 octan-1-amine 	; primary amine; primary aliphatic amine (alkylamine)
+mobley_1881249; 	 pentan-2-one 	; ketone
+mobley_8449031; 	 N,N-diethylethanamine 	; tertiary amine; tertiary aliphatic amine (trialkylamine)
+mobley_5467162; 	 4-tert-butylphenol 	; phenol or hydroxyhetarene; aromatic
+mobley_6522117; 	 2-chloro-1-(2,4-dichlorophenyl)ethenyl diethyl phosphate 	; aryl chloride; phosphoric acid ester; alkene; aromatic
+mobley_7977115; 	 hexan-3-ol 	; secondary alcohol
+mobley_8809274; 	 trifluoromethylbenzene 	; halogen derivative; aromatic
+mobley_5063386; 	 2-nitrophenol 	; phenol or hydroxyhetarene; nitro; aromatic
+mobley_2958326; 	 N-propylpropan-1-amine 	; secondary amine; secondary aliphatic amine (dialkylamine)
+mobley_8052240; 	 1-amino-9,10-anthracenedione 	; ketone; primary amine; primary aromatic amine; aromatic
+mobley_1760914; 	 1-chloro-2-methyl-benzene 	; aryl chloride; aromatic
+mobley_2402487; 	 diethyl propanedioate 	; carboxylic acid ester
+mobley_4059279; 	 1,4-dimethylpiperazine 	; tertiary amine; tertiary aliphatic amine (trialkylamine); heterocyclic
+mobley_9733743; 	 butan-1-amine 	; primary amine; primary aliphatic amine (alkylamine)
+mobley_252413; 	 2,2-dimethylpentane 	; 
+mobley_1144156; 	 ethoxyethane 	; dialkyl ether
+mobley_2972906; 	 thiophene 	; aromatic; heterocyclic
+mobley_3266352; 	 N-methyl-N-(2,2,2-trifluoroethyl)aniline 	; tertiary amine; tertiary aliphatic/aromatic amine (alkylarylamine); halogen derivative; aromatic
+mobley_1231151; 	 2-chloropropane 	; alkyl chloride
+mobley_4035953; 	 o-cresol 	; phenol or hydroxyhetarene; aromatic
+mobley_1650157; 	 2-methylpropan-2-ol 	; tertiary alcohol
+mobley_299266; 	 2-methylprop-1-ene 	; alkene
+mobley_7774695; 	 N-methylaniline 	; secondary amine; secondary aliphatic/aromatic amine (alkylarylamine); aromatic
+mobley_7066554; 	 4-chlorophenol 	; phenol or hydroxyhetarene; aryl chloride; aromatic
+mobley_7326982; 	 propan-2-ol 	; secondary alcohol
+mobley_7009711; 	 3,5-dimethylphenol 	; phenol or hydroxyhetarene; aromatic
+mobley_9705941; 	 2-methylthiophene 	; aromatic; heterocyclic
+mobley_4149784; 	 2,7-dichlorodibenzo-p-dioxin 	; diaryl ether; aryl chloride; aromatic; heterocyclic
+mobley_2213823; 	 3-methylpentane 	; 
+mobley_7754849; 	 ethion 	; thiophosphoric acid ester
+mobley_8885088; 	 cyclopentene 	; alkene
+mobley_3359593; 	 4-propylguaiacol 	; phenol or hydroxyhetarene; alkyl aryl ether; aromatic
+mobley_7417968; 	 2-ethoxyethyl acetate 	; dialkyl ether; carboxylic acid ester
+mobley_9653690; 	 (1S,5R)-2-methyl-5-(1-methylethenyl)-2-cyclohexen-1-ol 	; secondary alcohol; alkene
+mobley_4699732; 	 1,2-dichloropropane 	; alkyl chloride
+mobley_4305650; 	 propanenitrile 	; carbonitrile
+mobley_628951; 	 1,3-dichloro-2-(2,6-dichlorophenyl)benzene 	; aryl chloride; aromatic
+mobley_4883284; 	 aniline 	; primary amine; primary aromatic amine; aromatic
+mobley_3210206; 	 1,2-dinitroxypropane 	; nitrate
+mobley_2802855; 	 1-bromobutane 	; alkyl bromide
+mobley_1803862; 	 isopentane 	; 
+mobley_1858644; 	 2-phenylethanol 	; primary alcohol; aromatic
+mobley_8467917; 	 hept-2-ene 	; alkene
+mobley_7017274; 	 phenanthrene 	; aromatic
+mobley_8746821; 	 2,3-dimethylpyridine 	; aromatic; heterocyclic
+mobley_4177472; 	 2,3,4-trimethylpentane 	; 
+mobley_8522124; 	 oct-1-yne 	; alkyne
+mobley_1896013; 	 (2S,3R,4S,5R)-oxane-2,3,4,5-tetrol 	; hemiacetal; secondary alcohol; 1,2-diol; heterocyclic
+mobley_2245668; 	 2-methylpropan-1-ol 	; primary alcohol
+mobley_8723116; 	 4-chloroaniline 	; primary amine; primary aromatic amine; aryl chloride; aromatic
+mobley_129464; 	 1-butoxybutane 	; dialkyl ether
+mobley_9434451; 	 2-bromopropane 	; alkyl bromide
+mobley_7261305; 	 hydrazine 	; hydrazine derivative
+mobley_8191186; 	 2-chloro-1,1,1-trifluoro-ethane 	; alkyl chloride
+mobley_4434915; 	 chloromethane 	; alkyl chloride
+mobley_667278; 	 1,2,3,4-tetrachloro-5-(2,3,4-trichlorophenyl)benzene 	; aryl chloride; aromatic
+mobley_6911232; 	 methoxyethane 	; dialkyl ether
+mobley_8057732; 	 3-chlorophenol 	; phenol or hydroxyhetarene; aryl chloride; aromatic
+mobley_5310099; 	 hex-1-ene 	; alkene
+mobley_5006685; 	 4-(1-Methylethenyl)-1-cyclohexene-1-carboxaldehyde 	; aldehyde; alkene
+mobley_6198745; 	 2,3-diacetoxypropyl acetate 	; carboxylic acid ester
+mobley_3201701; 	 pirimor 	; tertiary amine; tertiary aliphatic/aromatic amine (alkylarylamine); carbamic acid ester (urethane); aromatic; heterocyclic
+mobley_4690963; 	 1,2-diethoxyethane 	; dialkyl ether
+mobley_1929982; 	 hydrogen sulfide 	; 
+mobley_3187514; 	 2-methylaniline 	; primary amine; primary aromatic amine; aromatic
+mobley_4964807; 	 nitroxyacetone 	; ketone; nitrate
+mobley_210639; 	 2-iodopropane 	; alkyl iodide
+mobley_1075836; 	 methyl propanoate 	; carboxylic acid ester
+mobley_6091882; 	 ethylene 	; alkene
+mobley_8514745; 	 pentyl acetate 	; carboxylic acid ester
+mobley_8668219; 	 2,3-dimethylpentane 	; 
+mobley_9729792; 	 cyclohepta-1,3,5-triene 	; alkene
+mobley_2784376; 	 cyclopropane 	; 
+mobley_8739734; 	 3-methylbutan-2-one 	; ketone
+mobley_6338073; 	 terbutryn 	; thioether; secondary amine; secondary aliphatic/aromatic amine (alkylarylamine); aromatic; heterocyclic
+mobley_4884177; 	 3-ethylpyridine 	; aromatic; heterocyclic
+mobley_6081058; 	 oct-2-enal 	; aldehyde; alkene
+mobley_9257453; 	 3,4-dichlorophenol 	; phenol or hydroxyhetarene; aryl chloride; aromatic
+mobley_36119; 	 octan-1-ol 	; primary alcohol
+mobley_5079234; 	 heptan-1-ol 	; primary alcohol
+mobley_2487143; 	 hexan-2-one 	; ketone
+mobley_430089; 	 pent-1-yne 	; alkyne
+mobley_7829570; 	 N-butyl-N-ethyl-2,6-dinitro-4-(trifluoromethyl)aniline 	; tertiary amine; tertiary aliphatic/aromatic amine (alkylarylamine); halogen derivative; nitro; aromatic
+mobley_5890803; 	 propyl propanoate 	; carboxylic acid ester
+mobley_4395315; 	 4-chloro-3-methyl-phenol 	; phenol or hydroxyhetarene; aryl chloride; aromatic
+mobley_1722522; 	 ethyl butanoate 	; carboxylic acid ester
+mobley_766666; 	 1,1,2-trichloroethylene 	; halogen derivative
+mobley_4188615; 	 N,N-dimethylbenzamide 	; tertiary carboxylic acid amide; aromatic
+mobley_3999471; 	 1,1-dichloroethane 	; alkyl chloride
+mobley_5747981; 	 1,1,1,2-tetramethoxyethane 	; dialkyl ether; orthocarboxylic acid derivative; orthoester
+mobley_9671033; 	 1-nitropropane 	; nitro
+mobley_525934; 	 methanethiol 	; thiol (sulfanyl); alkylthiol
+mobley_8578590; 	 methylsulfinylmethane 	; sulfoxide
+mobley_1821184; 	 3-methyl-1H-indole 	; aromatic; heterocyclic
+mobley_6571751; 	 1-methylcyclohexene 	; alkene
+mobley_4553008; 	 1,4-dichlorobenzene 	; aryl chloride; aromatic
+mobley_5690766; 	 hexa-1,5-diene 	; alkene
+mobley_7532833; 	 acetonitrile 	; carbonitrile
+mobley_3398536; 	 iodobenzene 	; aryl iodide; aromatic
+mobley_3546460; 	 hexan-1-ol 	; primary alcohol
+mobley_7106722; 	 isohexane 	; 
+mobley_2782339; 	 phthalimide 	; carboxylic acid imide, N-unsubstituted; aromatic; heterocyclic
+mobley_6727159; 	 2-(nitrooxy)ethan-1-ol 	; primary alcohol; nitrate
+mobley_4639255; 	 ethylene glycol 	; primary alcohol; 1,2-diol
+mobley_3034976; 	 acetic acid 	; carboxylic acid
+mobley_9565165; 	 9H-fluorene 	; aromatic
+mobley_2609604; 	 3,3-dimethylpentane 	; 
+mobley_5747188; 	 1-methyl-2-nitro-benzene 	; nitro; aromatic
+mobley_1967551; 	 acetaldehyde 	; aldehyde
+mobley_4587267; 	 (2R,3R,4R,5R)-Hexan-1,2,3,4,5,6-hexol 	; primary alcohol; secondary alcohol; 1,2-diol
+mobley_172879; 	 dibenzo-p-dioxin 	; diaryl ether; aromatic; heterocyclic
+mobley_2457863; 	 3-methoxyphenol 	; phenol or hydroxyhetarene; alkyl aryl ether; aromatic
+mobley_2143011; 	 3-methylbut-1-ene 	; alkene
+mobley_2837389; 	 pyrrole 	; aromatic; heterocyclic
+mobley_8789465; 	 2-iodophenol 	; phenol or hydroxyhetarene; aryl iodide; aromatic
+mobley_2859600; 	 styrene 	; alkene; aromatic
+mobley_1855337; 	 1,2,3,5-tetrachlorobenzene 	; aryl chloride; aromatic
+mobley_9740891; 	 dichlobenil 	; aryl chloride; carbonitrile; aromatic
+mobley_2771569; 	 1-methylpiperazine 	; secondary amine; secondary aliphatic amine (dialkylamine); tertiary amine; tertiary aliphatic amine (trialkylamine); heterocyclic
+mobley_8221999; 	 butanenitrile 	; carbonitrile
+mobley_4762983; 	 hept-1-ene 	; alkene
+mobley_2279874; 	 trimethoxymethane 	; orthocarboxylic acid derivative; orthoester
+mobley_8764620; 	 pyridine-3-carbonitrile 	; carbonitrile; aromatic; heterocyclic
+mobley_4613090; 	 1-benzylimidazole 	; aromatic; heterocyclic
+mobley_6978427; 	 methyl cyclohexanecarboxylate 	; carboxylic acid ester
+mobley_6739648; 	 1,4-dioxane 	; dialkyl ether; heterocyclic
+mobley_1800170; 	 ethanethiol 	; thiol (sulfanyl); alkylthiol
+mobley_1046331; 	 phenyl formate 	; carboxylic acid ester; aromatic
+mobley_9821936; 	 1,2,3,4,6,7,8,9-octachlorodibenzo-p-dioxin 	; diaryl ether; aryl chloride; aromatic; heterocyclic
+mobley_4983965; 	 ethylsulfanylethane 	; thioether
+mobley_1781152; 	 methyl 2,2-dimethylpropanoate 	; carboxylic acid ester
+mobley_4483973; 	 fluorobenzene 	; aryl fluoride; aromatic
+mobley_4780078; 	 2,4-dimethylphenol 	; phenol or hydroxyhetarene; aromatic
+mobley_2294995; 	 ethyl formate 	; carboxylic acid ester
+mobley_303222; 	 prop-1-ene 	; alkene
+mobley_1563176; 	 butane-1-thiol 	; thiol (sulfanyl); alkylthiol
+mobley_4375719; 	 nonane 	; 
+mobley_8117218; 	 endrin 	; dialkyl ether; alkyl chloride; alkene; heterocyclic
+mobley_8765203; 	 isoprene 	; alkene
+mobley_1278715; 	 hexachloroethane 	; halogen derivative
+mobley_2269032; 	 naproxen 	; alkyl aryl ether; carboxylic acid; aromatic
+mobley_929676; 	 1-bromohexane 	; alkyl bromide
+mobley_1328465; 	 1,1,2-trichloroethane 	; alkyl chloride
+mobley_296847; 	 pyridine 	; aromatic; heterocyclic
+mobley_3663158; 	 naphthalen-2-ol 	; phenol or hydroxyhetarene; aromatic
+mobley_9121449; 	 but-1-yne 	; alkyne
+mobley_7295828; 	 anisole 	; alkyl aryl ether; aromatic
+mobley_3425174; 	 chloro-fluoro-methane 	; alkyl fluoride; alkyl chloride
+mobley_2923700; 	 4-ethylphenol 	; phenol or hydroxyhetarene; aromatic
+mobley_2123854; 	 4-hydroxybenzonitrile 	; phenol or hydroxyhetarene; carbonitrile; aromatic
+mobley_3589456; 	 2-chloro-1,1,1-trimethoxy-ethane 	; alkyl chloride; orthocarboxylic acid derivative; orthoester
+mobley_3269565; 	 2-methoxypropane 	; dialkyl ether
+mobley_3265457; 	 2-chlorosyringaldehyde 	; aldehyde; phenol or hydroxyhetarene; alkyl aryl ether; aryl chloride; aromatic
+mobley_9028462; 	 methyl 2,2,2-trifluoroacetate 	; halogen derivative; carboxylic acid ester
+mobley_1944394; 	 [2-benzhydryloxyethyl]-dimethyl-amine 	; dialkyl ether; tertiary amine; tertiary aliphatic amine (trialkylamine); aromatic
+mobley_7735340; 	 imidazole 	; aromatic; heterocyclic
+mobley_5948990; 	 2-nitroaniline 	; primary amine; primary aromatic amine; nitro; aromatic
+mobley_3452749; 	 1,2,3-trimethylbenzene 	; aromatic
+mobley_9414831; 	 1-methylnaphthalene 	; aromatic
+mobley_8207196; 	 simazine 	; secondary amine; secondary aliphatic/aromatic amine (alkylarylamine); aryl chloride; aromatic; heterocyclic
+mobley_9557440; 	 5-chlorouracil 	; aryl chloride; oxo(het)arene; aromatic; heterocyclic
+mobley_6474572; 	 chloroethylene 	; halogen derivative; alkene
+mobley_6988468; 	 2-ethylpyridine 	; aromatic; heterocyclic
+mobley_7150646; 	 1,4-dibromobenzene 	; aryl bromide; aromatic
+mobley_5708811; 	 dicamba 	; alkyl aryl ether; aryl chloride; carboxylic acid; aromatic
+mobley_6688723; 	 3,5-dichloro-2,6-dimethoxyphenol 	; phenol or hydroxyhetarene; alkyl aryl ether; aryl chloride; aromatic
+mobley_4252724; 	 isobutylbenzene 	; aromatic
+mobley_8983100; 	 bromomethane 	; alkyl bromide
+mobley_1952272; 	 nitromethane 	; nitro
+mobley_9007496; 	 naphthalen-1-yl N-methylcarbamate 	; carbamic acid ester (urethane); aromatic
+mobley_8124669; 	 alachlor 	; hemiaminal; alkyl chloride; tertiary carboxylic acid amide; aromatic
+mobley_1728386; 	 benzamide 	; primary carboxylic acid amide; aromatic
+mobley_5627459; 	 2-methylpropanal 	; aldehyde
+mobley_7768165; 	 1-bromo-2-chloro-ethane 	; alkyl chloride; alkyl bromide
+mobley_664966; 	 diiodomethane 	; alkyl iodide
+mobley_852937; 	 4-fluorophenol 	; phenol or hydroxyhetarene; aryl fluoride; aromatic
+mobley_4687447; 	 2-propoxyethanol 	; primary alcohol; dialkyl ether
+mobley_7364468; 	 3,5,5-trimethylcyclohex-2-en-1-one 	; ketone; alkene
+mobley_3414356; 	 2-methylpentan-2-ol 	; tertiary alcohol
+mobley_778352; 	 2-methylbut-2-ene 	; alkene
+mobley_7708038; 	 1-bromopropane 	; alkyl bromide
+mobley_6896128; 	 3-methylheptane 	; 
+mobley_7610437; 	 2-methylpentan-3-ol 	; secondary alcohol
+mobley_5123639; 	 4-methylpentan-2-ol 	; secondary alcohol
+mobley_8713762; 	 N,N-dipropyl(propylsulfanyl)formamide 	; thiocarbamic acid ester
+mobley_2178600; 	 1-chloro-pentane 	; alkyl chloride
+mobley_4936555; 	 2-(2,3-dimethylphenyl)aminobenzoic acid 	; secondary amine; secondary aromatic amine (diarylamine); carboxylic acid; aromatic
+mobley_590519; 	 ethyldisulfanylethane 	; disulfide
+mobley_9883303; 	 3-methylhexane 	; 
+mobley_9029594; 	 fluoromethane 	; alkyl fluoride
+mobley_1502181; 	 nonan-2-one 	; ketone
+mobley_9478823; 	 o-xylene 	; aromatic
+mobley_9201263; 	 methyl methanesulfonate 	; sulfonic acid ester
+mobley_2613240; 	 1,2-dimethoxybenzene 	; alkyl aryl ether; aromatic
+mobley_7769613; 	 2-bromo-2-methyl-propane 	; alkyl bromide
+mobley_3040612; 	 1-ethyl-2-methylbenzene 	; aromatic
+mobley_2410897; 	 ethanamine 	; primary amine; primary aliphatic amine (alkylamine)
+mobley_5003962; 	 2-amino-9,10-anthraquinone 	; ketone; primary amine; primary aromatic amine; aromatic
+mobley_1899443; 	 2-methylpent-1-ene 	; alkene
+mobley_4338603; 	 6-chlorouracil 	; aryl chloride; oxo(het)arene; aromatic; heterocyclic
+mobley_5935995; 	 2,2-dimethylbutane 	; 
+mobley_8048190; 	 acetamide 	; primary carboxylic acid amide
+mobley_5917842; 	 4-methyl-2-methoxyphenol 	; phenol or hydroxyhetarene; alkyl aryl ether; aromatic
+mobley_4013838; 	 2,4-dimethylpentan-3-one 	; ketone
+mobley_8883511; 	 2-methylbenzaldehyde 	; aldehyde; aromatic
+mobley_7732703; 	 bromo-trifluoro-methane 	; halogen derivative
+mobley_3639400; 	 1-chlorobutane 	; alkyl chloride
+mobley_9185328; 	 propan-1-amine 	; primary amine; primary aliphatic amine (alkylamine)
+mobley_3105103; 	 terbacil 	; aryl chloride; oxo(het)arene; aromatic; heterocyclic
+mobley_8337977; 	 4-methylpentan-2-one 	; ketone
+mobley_5347550; 	 2,2-dichloro-1,1-difluoro-1-methoxy-ethane 	; alkyl chloride; orthocarboxylic acid derivative
+mobley_1733799; 	 4-bromophenol 	; phenol or hydroxyhetarene; aryl bromide; aromatic
+mobley_5494918; 	 1,1,2,3,3,3-hexafluoroprop-1-ene 	; halogen derivative
+mobley_7010316; 	 cyclohexanol 	; secondary alcohol
+mobley_8320545; 	 1-nitroethane 	; nitro
+mobley_3775790; 	 1-methylpyrrole 	; aromatic; heterocyclic
+mobley_7157427; 	 1-chloroheptane 	; alkyl chloride
+mobley_3746675; 	 isopropenylbenzene 	; alkene; aromatic
+mobley_3715043; 	 1,4-dimethylnaphthalene 	; aromatic
+mobley_5263791; 	 1-ethylnaphthalene 	; aromatic

@@ -1,0 +1,64 @@
+; topgro/methanol0.top created by rdparm2gmx.pl Thu Sep 27 13:38:30 PDT 2007
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333
+
+[ atomtypes ]
+;name  bond_type    mass    charge   ptype          sigma      epsilon
+c3            c3      0.0000  0.0000  A   3.39967e-01  4.57730e-01
+h1            h1      0.0000  0.0000  A   2.47135e-01  6.56888e-02
+oh            oh      0.0000  0.0000  A   3.06647e-01  8.80314e-01
+ho            ho      0.0000  0.0000  A   0.00000e+00  0.00000e+00
+
+[ moleculetype ]
+; Name            nrexcl
+solute             3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB
+     1         c3      1    TMP     C1      1    0.12010  12.000000
+     2         oh      1    TMP     O1      2   -0.60030  16.000000
+     3         h1      1    TMP     H1      3    0.02770   1.000000
+     4         h1      1    TMP     H2      4    0.02770   1.000000
+     5         h1      1    TMP     H3      5    0.02770   1.000000
+     6         ho      1    TMP     H4      6    0.39710   1.000000
+
+[ bonds ]
+;  ai    aj funct  r  k
+    1     3     1  1.0930e-01  2.8108e+05
+    1     4     1  1.0930e-01  2.8108e+05
+    1     5     1  1.0930e-01  2.8108e+05
+    2     6     1  9.7400e-02  3.0928e+05
+    1     2     1  1.4260e-01  2.6284e+05
+
+[ pairs ]
+;  ai    aj funct
+     3      6      1
+     4      6      1
+     5      6      1
+
+[ angles ]
+;  ai    aj    ak funct  theta   cth
+    1     2     6     1  1.0816e+02  3.9413e+02
+    2     1     3     1  1.0988e+02  4.2677e+02
+    2     1     4     1  1.0988e+02  4.2677e+02
+    2     1     5     1  1.0988e+02  4.2677e+02
+    3     1     4     1  1.0955e+02  3.2803e+02
+    3     1     5     1  1.0955e+02  3.2803e+02
+    4     1     5     1  1.0955e+02  3.2803e+02
+
+[ dihedrals ]
+;i  j   k  l	 func	C0  ...  C5
+    3    1    2    6      3     0.69873     2.09618     0.00000    -2.79491     0.00000     0.00000	;
+    4    1    2    6      3     0.69873     2.09618     0.00000    -2.79491     0.00000     0.00000	;
+    5    1    2    6      3     0.69873     2.09618     0.00000    -2.79491     0.00000     0.00000	;
+
+
+[ system ]
+6 system in water
+
+[ molecules ]
+; Compound        nmols
+solute            1
+SOL               413
