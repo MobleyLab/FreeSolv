@@ -104,6 +104,10 @@ Please also note that some discrepancies between experimental values here and va
   * Added citation detail for FreeSolv to the References section below.
   * Corrected IUPAC name of ‘biphenyle’ to ‘biphenyl’; the notes already said this had been done, but the name had not been updated.
 
+## Changes not yet in a formal release:
+* Added (temporarily?) unique, short nicknames to all compounds in database.txt and database.pickle; these consist of IUPAC names when short, or common/other names which are unique and lead to useful hits when used as search terms. (Approx. 10/21/14) 
+* Removed mobley_4689084, which duplicates mobley_352111 (same experimental value and source data, but the calculated value of the former is older, and topology/coordinate file were less well curated). (10/24/14)
+
 # References
 * (1) Mobley, D. L., Bayly, C. I., Cooper, M. D., Shirts, M. R., & Dill, K. A. (2009). Small Molecule Hydration Free Energies in Explicit Solvent: An Extensive Test of Fixed-Charge Atomistic Simulations. Journal of Chemical Theory and Computation, 5(2), 350–358.
 * (2) Mobley, D. L., Dill, K., & Chodera, J. D. (2008). Treating entropy and conformational changes in implicit solvent simulations of small molecules.The Journal of Physical Chemistry B,112(3), 938.
