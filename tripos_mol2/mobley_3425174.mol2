@@ -1,0 +1,17 @@
+@<TRIPOS>MOLECULE
+chloro(fluoro)methane
+    5     4     0     0     0
+SMALL
+USER_CHARGES
+
+@<TRIPOS>ATOM
+      1 C1          0.1087   -0.0108   -0.0646 C.3       1 MOL         0.2716
+      2 F1         -0.6737    0.0934   -1.1682 F         1 MOL        -0.2138
+      3 Cl1        -0.8928    0.0735    1.3860 Cl        1 MOL        -0.2053
+      4 H1          0.8258    0.8132   -0.0612 H         1 MOL         0.0737
+      5 H2          0.6320   -0.9694   -0.0920 H         1 MOL         0.0737
+@<TRIPOS>BOND
+     1    1    2 1
+     2    1    3 1
+     3    1    4 1
+     4    1    5 1
