@@ -1,8 +1,7 @@
 # FreeSolv: Experimental and Calculated Small Molecule Hydration Free Energies
 
 This repository provides an issue tracker and revision control for the FreeSolv
-database.  If you find any issues, please raise an issue in the issue tracker
-or file a pull request!
+database, initially described in JCAMD (10): http://dx.doi.org/10.1007/s10822-014-9747-x.  If you find any issues, please raise an issue in the issue tracker or file a pull request!
 
 # Abstract:
 
@@ -35,9 +34,7 @@ The database consists of a .tar.gz file containing:
 
 # The future:
 
-We plan to write a paper reporting the work done to create this database. This paper will provide a static version of the database.
-
-In addition, we plan to maintain our database on the cite-able eScholarship repository of the University of California. It is currently available on that site at www.escholarship.org/uc/item/6sd403pz. Updated versions will be maintained there.
+The database is maintained on the cite-able eScholarship repository of the University of California. It is currently available on that site at www.escholarship.org/uc/item/6sd403pz. Updated versions will be maintained there, mirroring point releases provided via this GitHub site.
 
 Please cite:
 > Mobley, David L. (2013). Experimental and Calculated Small Molecule Hydration Free Energies. UC Irvine: Department of Pharmaceutical Sciences, UCI. Retrieved from: http://www.escholarship.org/uc/item/6sd403pz
@@ -117,4 +114,5 @@ Please also note that some discrepancies between experimental values here and va
 * (6) Mobley, D. L., Bayly, C. I., Cooper, M. D., & Dill, K. A. (2009). Predictions of hydration free energies from all-atom molecular dynamics simulations.The Journal of Physical Chemistry B,113(14), 4533–4537. doi:10.1021/jp806838b
 * (7) Klimovich, P., & Mobley, D. L. (2010). Predicting hydration free energies using all-atom molecular dynamics simulations and multiple starting conformations.Journal of Computer-Aided Molecular Design,24(4), 307–316.
 * (8) Mobley, D. L., Liu, S., Cerutti, D. S., Swope, W. C., & Rice, J. E. (2012). Alchemical prediction of hydration free energies for SAMPL.Journal of Computer-Aided Molecular Design,26(5), 551–562. doi:10.1007/s10822-011-9528-8
-* (9) Mobley, D. L., Wymer, K. L., Lim, N. M., Guthrie, J. P.  (2014) "Blind prediction of solvation free energies from the SAMPL4 challenge", Journal of Computer-Aided Molecular Design, 28(7):711-720 (2014).
+* (9) Mobley, D. L., Wymer, K. L., Lim, N. M., Guthrie, J. P.  (2014) "Blind prediction of solvation free energies from the SAMPL4 challenge", Journal of Computer-Aided Molecular Design, 28:135-150 (2014).
+* (10) Mobley, D. L., and Guthrie, J. P., "FreeSolv: A database of experimental and calculated hydration free energies, with input files", Journal of Computer-Aided Molecular Design, 28(7):711-720 (2014)
