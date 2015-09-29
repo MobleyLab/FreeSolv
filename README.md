@@ -101,9 +101,12 @@ Please also note that some discrepancies between experimental values here and va
   * Added citation detail for FreeSolv to the References section below.
   * Corrected IUPAC name of ‘biphenyle’ to ‘biphenyl’; the notes already said this had been done, but the name had not been updated.
 
-## Changes not yet in a formal release:
+## Version 0.32 (Sept. 29, 2015):
+* Corrected SMILES strings (and other files) for nitro-containing compounds mobley_3802803 and mobley_9741965. Due to some type of earlier error, the GAFF and SYBYL .mol2 files for these contained incorrect bonding in the nitro group(s), which resulted in generation of incorrect SMILES when generating FreeSolv. These SMILES strings have now been corrected, as has the bond type in the .mol2 files. Partial charges in the topology files and .mol2 files were retained as use for the calculations reported here, and will be updated in a subsequent release when the calculations are repeated. Checkmol groups for these compounds were also updated. Thanks to Christopher Bayly for noticing these issues. (9/29/15)
 * Added (temporarily?) unique, short nicknames to all compounds in database.txt and database.pickle; these consist of IUPAC names when short, or common/other names which are unique and lead to useful hits when used as search terms. (Approx. 10/21/14) 
 * Removed mobley_4689084, which duplicates mobley_352111 (same experimental value and source data, but the calculated value of the former is older, and topology/coordinate file were less well curated). (10/24/14)
+
+## Changes not yet in a formal release:
 
 # References
 * (1) Mobley, D. L., Bayly, C. I., Cooper, M. D., Shirts, M. R., & Dill, K. A. (2009). Small Molecule Hydration Free Energies in Explicit Solvent: An Extensive Test of Fixed-Charge Atomistic Simulations. Journal of Chemical Theory and Computation, 5(2), 350–358.
