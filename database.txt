@@ -1,4 +1,4 @@
-#Hydration free energy database v0.31, 9/25/2014.
+#Hydration free energy database v0.32, 9/29/2015.
 #Semicolon-delimited text file with fields in the following format:
 # compound id (and file prefix); SMILES; iupac name (or alternative if IUPAC is unavailable or not parseable by OEChem); experimental value (kcal/mol); experimental uncertainty (kcal/mol); Mobley group calculated value (AMBER/GAFF) (kcal/mol); calculated uncertainty (kcal/mol); experimental reference (original or paper this value was taken from); calculated reference; PubChemID; Nickname; text notes.
 mobley_1017962; CCCCCC(=O)OC; methyl hexanoate; -2.49; 0.60; -3.02; 0.03; 10.1021/ct050097l; 10.1021/ct800409d; 7824; methyl hexanoate; Experimental uncertainty not presently available, so assigned a default value.
