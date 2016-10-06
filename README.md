@@ -3,6 +3,9 @@
 This repository provides an issue tracker and revision control for the FreeSolv
 database, initially described in JCAMD (10): http://dx.doi.org/10.1007/s10822-014-9747-x.  If you find any issues, please raise an issue in the issue tracker or file a pull request!
 
+Releases are automatically assigned unique DOIs via Zenodo. Latest release: [![DOI](https://zenodo.org/badge/24502203.svg)](https://zenodo.org/badge/latestdoi/24502203)
+
+
 # Abstract:
 
 This work provides a curated database of experimental and calculated hydration free energies for small molecules in water, along with experimental values and input files. Experimental values are taken from prior literature and will continue to be curated, with updated experimental references and data added as it becomes available. Calculated values are based on the GAFF small molecule force field in TIP3P water with AM1-BCC charges, as in the provided parameter files. Values were calculated using the GROMACS simulation package, with full details given in references cited within the database itself. This database builds on previous work from the Mobley lab and others, and extends the prior database. With deposition in eScholarship, the database is now versioned, allowing citation of specific versions of the database, and easier updates.
@@ -105,6 +108,10 @@ Please also note that some discrepancies between experimental values here and va
 * Corrected SMILES strings (and other files) for nitro-containing compounds mobley_3802803 and mobley_9741965. Due to some type of earlier error, the GAFF and SYBYL .mol2 files for these contained incorrect bonding in the nitro group(s), which resulted in generation of incorrect SMILES when generating FreeSolv. These SMILES strings have now been corrected, as has the bond type in the .mol2 files. Partial charges in the topology files and .mol2 files were retained as use for the calculations reported here, and will be updated in a subsequent release when the calculations are repeated. Checkmol groups for these compounds were also updated. Thanks to Christopher Bayly for noticing these issues. (9/29/15)
 * Added (temporarily?) unique, short nicknames to all compounds in database.txt and database.pickle; these consist of IUPAC names when short, or common/other names which are unique and lead to useful hits when used as search terms. (Approx. 10/21/14) 
 * Removed mobley_4689084, which duplicates mobley_352111 (same experimental value and source data, but the calculated value of the former is older, and topology/coordinate file were less well curated). (10/24/14)
+
+## Version 0.320: 
+Same as the above but initiates Zenodo DOIs. DOI http://dx.doi.org/10.5281/zenodo/159499
+
 
 ## Changes not yet in a formal release:
 
