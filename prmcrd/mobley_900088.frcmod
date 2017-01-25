@@ -1,0 +1,21 @@
+Remark line goes here
+MASS
+
+BOND
+
+ANGLE
+
+DIHE
+hc-c3-ce-ce   1    0.380       180.000          -3.000      same as hc-c3-c2-c2
+hc-c3-ce-ce   1    1.150         0.000           1.000      same as hc-c3-c2-c2, penalty score=324.0
+hc-c3-ce-c2   1    0.380       180.000          -3.000      same as hc-c3-c2-c2
+hc-c3-ce-c2   1    1.150         0.000           1.000      same as hc-c3-c2-c2, penalty score=237.0
+
+IMPROPER
+c2-c3-ce-ce         1.1          180.0         2.0          Using the default value
+ce-ha-c2-ha         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 47.1 (use general term))
+
+NONBON
+
+
+

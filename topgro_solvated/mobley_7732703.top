@@ -1,0 +1,48 @@
+; mobley_7732703_GMX.top created by acpype (Rev: 403) on Fri Jan 20 15:26:00 2017
+
+#include "amber99sb-ildn.ff/forcefield.itp"
+
+
+[ atomtypes ]
+;name   bond_type     mass     charge   ptype   sigma         epsilon       Amb
+ c3       c3          0.00000  0.00000   A     3.39967e-01   4.57730e-01 ; 1.91  0.1094
+ f        f           0.00000  0.00000   A     3.11815e-01   2.55224e-01 ; 1.75  0.0610
+ br       br          0.00000  0.00000   A     3.59923e-01   1.75728e+00 ; 2.02  0.4200
+
+[ moleculetype ]
+;name            nrexcl
+ mobley_7732703 3
+
+[ atoms ]
+;   nr  type  resi  res  atom  cgnr     charge      mass       ; qtot   bond_type
+     1   c3     1   MOL    C1    1     0.707801     12.01000 ; qtot 0.708
+     2    f     1   MOL    F1    2    -0.207000     19.00000 ; qtot 0.501
+     3    f     1   MOL    F2    3    -0.207000     19.00000 ; qtot 0.294
+     4    f     1   MOL    F3    4    -0.207000     19.00000 ; qtot 0.087
+     5   br     1   MOL   BR1    5    -0.086800     79.90000 ; qtot -0.000
+
+[ bonds ]
+;   ai     aj funct   r             k
+     1      2   1    1.3440e-01    3.0443e+05 ;     C1 - F1    
+     1      3   1    1.3440e-01    3.0443e+05 ;     C1 - F2    
+     1      4   1    1.3440e-01    3.0443e+05 ;     C1 - F3    
+     1      5   1    1.9660e-01    1.9205e+05 ;     C1 - BR1   
+
+[ angles ]
+;   ai     aj     ak    funct   theta         cth
+     2      1      3      1    1.0716e+02    5.9630e+02 ;     F1 - C1     - F2    
+     2      1      4      1    1.0716e+02    5.9630e+02 ;     F1 - C1     - F3    
+     2      1      5      1    1.0902e+02    4.9497e+02 ;     F1 - C1     - BR1   
+     3      1      4      1    1.0716e+02    5.9630e+02 ;     F2 - C1     - F3    
+     3      1      5      1    1.0902e+02    4.9497e+02 ;     F2 - C1     - BR1   
+     4      1      5      1    1.0902e+02    4.9497e+02 ;     F3 - C1     - BR1   
+
+#include "amber99sb-ildn.ff/tip3p.itp"
+
+[ system ]
+mobley_7732703 in water
+
+[ molecules ]
+; Compound        nmols
+ mobley_7732703 1     
+SOL              1135

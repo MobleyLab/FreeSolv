@@ -1,0 +1,89 @@
+; mobley_8685905_GMX.top created by acpype (Rev: 403) on Fri Jan 20 15:26:00 2017
+
+#include "amber99sb-ildn.ff/forcefield.itp"
+
+
+[ atomtypes ]
+;name   bond_type     mass     charge   ptype   sigma         epsilon       Amb
+ c3       c3          0.00000  0.00000   A     3.39967e-01   4.57730e-01 ; 1.91  0.1094
+ h2       h2          0.00000  0.00000   A     2.29317e-01   6.56888e-02 ; 1.29  0.0157
+ f        f           0.00000  0.00000   A     3.11815e-01   2.55224e-01 ; 1.75  0.0610
+ br       br          0.00000  0.00000   A     3.59923e-01   1.75728e+00 ; 2.02  0.4200
+
+[ moleculetype ]
+;name            nrexcl
+ mobley_8685905 3
+
+[ atoms ]
+;   nr  type  resi  res  atom  cgnr     charge      mass       ; qtot   bond_type
+     1   c3     1   MOL    C1    1     0.199100     12.01000 ; qtot 0.199
+     2   h2     1   MOL    H1    2     0.117600      1.00800 ; qtot 0.317
+     3   c3     1   MOL    C2    3     0.613001     12.01000 ; qtot 0.930
+     4    f     1   MOL    F1    4    -0.216000     19.00000 ; qtot 0.714
+     5    f     1   MOL    F2    5    -0.216000     19.00000 ; qtot 0.498
+     6    f     1   MOL    F3    6    -0.216000     19.00000 ; qtot 0.282
+     7    f     1   MOL    F4    7    -0.177500     19.00000 ; qtot 0.104
+     8   br     1   MOL   BR1    8    -0.104200     79.90000 ; qtot 0.000
+
+[ bonds ]
+;   ai     aj funct   r             k
+     1      2   1    1.1000e-01    2.7313e+05 ;     C1 - H1    
+     1      3   1    1.5350e-01    2.5363e+05 ;     C1 - C2    
+     1      7   1    1.3440e-01    3.0443e+05 ;     C1 - F4    
+     1      8   1    1.9660e-01    1.9205e+05 ;     C1 - BR1   
+     3      4   1    1.3440e-01    3.0443e+05 ;     C2 - F1    
+     3      5   1    1.3440e-01    3.0443e+05 ;     C2 - F2    
+     3      6   1    1.3440e-01    3.0443e+05 ;     C2 - F3    
+
+[ pairs ]
+;   ai     aj    funct
+     2      4      1 ;     H1 - F1    
+     2      5      1 ;     H1 - F2    
+     2      6      1 ;     H1 - F3    
+     7      4      1 ;     F4 - F1    
+     7      5      1 ;     F4 - F2    
+     7      6      1 ;     F4 - F3    
+     8      4      1 ;    BR1 - F1    
+     8      5      1 ;    BR1 - F2    
+     8      6      1 ;    BR1 - F3    
+
+[ angles ]
+;   ai     aj     ak    funct   theta         cth
+     1      3      4      1    1.0941e+02    5.5413e+02 ;     C1 - C2     - F1    
+     1      3      5      1    1.0941e+02    5.5413e+02 ;     C1 - C2     - F2    
+     1      3      6      1    1.0941e+02    5.5413e+02 ;     C1 - C2     - F3    
+     2      1      3      1    1.1159e+02    3.8510e+02 ;     H1 - C1     - C2    
+     2      1      7      1    1.0841e+02    4.2978e+02 ;     H1 - C1     - F4    
+     2      1      8      1    1.0710e+02    3.5430e+02 ;     H1 - C1     - BR1   
+     3      1      7      1    1.0941e+02    5.5413e+02 ;     C2 - C1     - F4    
+     3      1      8      1    1.0925e+02    5.2744e+02 ;     C2 - C1     - BR1   
+     4      3      5      1    1.0716e+02    5.9630e+02 ;     F1 - C2     - F2    
+     4      3      6      1    1.0716e+02    5.9630e+02 ;     F1 - C2     - F3    
+     5      3      6      1    1.0716e+02    5.9630e+02 ;     F2 - C2     - F3    
+     7      1      8      1    1.0902e+02    4.9497e+02 ;     F4 - C1     - BR1   
+
+[ dihedrals ] ; propers
+; for gromacs 4.5 or higher, using funct 9
+;    i      j      k      l   func   phase     kd      pn
+     2      1      3      4      9     0.00   0.65084   3 ;     H1-    C1-    C2-    F1
+     2      1      3      5      9     0.00   0.65084   3 ;     H1-    C1-    C2-    F2
+     2      1      3      6      9     0.00   0.65084   3 ;     H1-    C1-    C2-    F3
+     7      1      3      4      9     0.00   0.00000   0 ;     F4-    C1-    C2-    F1
+     7      1      3      4      9   180.00   5.02080   1 ;     F4-    C1-    C2-    F1
+     7      1      3      5      9     0.00   0.00000   0 ;     F4-    C1-    C2-    F2
+     7      1      3      5      9   180.00   5.02080   1 ;     F4-    C1-    C2-    F2
+     7      1      3      6      9     0.00   0.00000   0 ;     F4-    C1-    C2-    F3
+     7      1      3      6      9   180.00   5.02080   1 ;     F4-    C1-    C2-    F3
+     8      1      3      4      9     0.00   0.65084   3 ;    BR1-    C1-    C2-    F1
+     8      1      3      5      9     0.00   0.65084   3 ;    BR1-    C1-    C2-    F2
+     8      1      3      6      9     0.00   0.65084   3 ;    BR1-    C1-    C2-    F3
+
+#include "amber99sb-ildn.ff/tip3p.itp"
+
+[ system ]
+mobley_8685905 in water
+
+[ molecules ]
+; Compound        nmols
+ mobley_8685905 1     
+SOL              1289

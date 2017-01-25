@@ -1,5 +1,5 @@
 @<TRIPOS>MOLECULE
-ethene
+ethylene
     6     5     1     0     0
 SMALL
 No Charge or Current Charge
@@ -7,7 +7,7 @@ No Charge or Current Charge
 
 @<TRIPOS>ATOM
       1 C1          0.2840    1.0300   -0.1840 c2        1 MOL     -0.218000
-      2 C2         -0.6400    1.9560   -0.4470 c2        1 MOL     -0.218000
+      2 C2         -0.6400    1.9560   -0.4470 c2        1 MOL     -0.217900
       3 H1          1.3360    1.2900   -0.1500 ha        1 MOL      0.109000
       4 H2          0.0000    0.0000    0.0000 ha        1 MOL      0.109000
       5 H3         -1.6920    1.6950   -0.4810 ha        1 MOL      0.109000
@@ -19,4 +19,4 @@ No Charge or Current Charge
      4    2    5 1   
      5    2    6 1   
 @<TRIPOS>SUBSTRUCTURE
-     1 R0_         1 TEMP              0 ****  ****    0 ROOT
+     1 MOL         1 TEMP              0 ****  ****    0 ROOT

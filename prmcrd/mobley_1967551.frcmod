@@ -1,0 +1,16 @@
+Remark line goes here
+MASS
+
+BOND
+
+ANGLE
+
+DIHE
+
+IMPROPER
+c3-h4-c -o          1.1          180.0         2.0          Using the default value
+
+NONBON
+
+
+

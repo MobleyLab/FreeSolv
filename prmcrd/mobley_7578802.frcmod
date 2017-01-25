@@ -1,0 +1,16 @@
+Remark line goes here
+MASS
+
+BOND
+
+ANGLE
+br-c3-h3   42.340     107.100   same as br-c3-h2, penalty score=  0.8
+
+DIHE
+
+IMPROPER
+
+NONBON
+
+
+

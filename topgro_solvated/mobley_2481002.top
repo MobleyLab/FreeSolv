@@ -1,0 +1,75 @@
+; mobley_2481002_GMX.top created by acpype (Rev: 403) on Fri Jan 20 15:26:00 2017
+
+#include "amber99sb-ildn.ff/forcefield.itp"
+
+
+[ atomtypes ]
+;name   bond_type     mass     charge   ptype   sigma         epsilon       Amb
+ c3       c3          0.00000  0.00000   A     3.39967e-01   4.57730e-01 ; 1.91  0.1094
+ no       no          0.00000  0.00000   A     3.25000e-01   7.11280e-01 ; 1.82  0.1700
+ o        o           0.00000  0.00000   A     2.95992e-01   8.78640e-01 ; 1.66  0.2100
+ cl       cl          0.00000  0.00000   A     3.47094e-01   1.10876e+00 ; 1.95  0.2650
+
+[ moleculetype ]
+;name            nrexcl
+ mobley_2481002 3
+
+[ atoms ]
+;   nr  type  resi  res  atom  cgnr     charge      mass       ; qtot   bond_type
+     1   c3     1   MOL    C1    1     0.182700     12.01000 ; qtot 0.183
+     2   no     1   MOL    N1    2     0.232100     14.01000 ; qtot 0.415
+     3    o     1   MOL    O1    3    -0.147400     16.00000 ; qtot 0.267
+     4    o     1   MOL    O2    4    -0.147400     16.00000 ; qtot 0.120
+     5   cl     1   MOL   CL1    5    -0.040000     35.45000 ; qtot 0.080
+     6   cl     1   MOL   CL2    6    -0.040000     35.45000 ; qtot 0.040
+     7   cl     1   MOL   CL3    7    -0.040000     35.45000 ; qtot 0.000
+
+[ bonds ]
+;   ai     aj funct   r             k
+     1      2   1    1.5330e-01    2.2209e+05 ;     C1 - N1    
+     1      5   1    1.7860e-01    2.3347e+05 ;     C1 - CL1   
+     1      6   1    1.7860e-01    2.3347e+05 ;     C1 - CL2   
+     1      7   1    1.7860e-01    2.3347e+05 ;     C1 - CL3   
+     2      3   1    1.2190e-01    6.3697e+05 ;     N1 - O1    
+     2      4   1    1.2190e-01    6.3697e+05 ;     N1 - O2    
+
+[ pairs ]
+;   ai     aj    funct
+     5      3      1 ;    CL1 - O1    
+     5      4      1 ;    CL1 - O2    
+     6      3      1 ;    CL2 - O1    
+     6      4      1 ;    CL2 - O2    
+     7      3      1 ;    CL3 - O1    
+     7      4      1 ;    CL3 - O2    
+
+[ angles ]
+;   ai     aj     ak    funct   theta         cth
+     1      2      3      1    1.1656e+02    5.6032e+02 ;     C1 - N1     - O1    
+     1      2      4      1    1.1656e+02    5.6032e+02 ;     C1 - N1     - O2    
+     2      1      5      1    1.0775e+02    5.3982e+02 ;     N1 - C1     - CL1   
+     2      1      6      1    1.0775e+02    5.3982e+02 ;     N1 - C1     - CL2   
+     2      1      7      1    1.0775e+02    5.3982e+02 ;     N1 - C1     - CL3   
+     3      2      4      1    1.2513e+02    6.4559e+02 ;     O1 - N1     - O2    
+     5      1      6      1    1.1103e+02    4.5380e+02 ;    CL1 - C1     - CL2   
+     5      1      7      1    1.1103e+02    4.5380e+02 ;    CL1 - C1     - CL3   
+     6      1      7      1    1.1103e+02    4.5380e+02 ;    CL2 - C1     - CL3   
+
+[ dihedrals ] ; propers
+; for gromacs 4.5 or higher, using funct 9
+;    i      j      k      l   func   phase     kd      pn
+     5      1      2      3      9     0.00   0.00000   0 ;    CL1-    C1-    N1-    O1
+     5      1      2      4      9     0.00   0.00000   0 ;    CL1-    C1-    N1-    O2
+     6      1      2      3      9     0.00   0.00000   0 ;    CL2-    C1-    N1-    O1
+     6      1      2      4      9     0.00   0.00000   0 ;    CL2-    C1-    N1-    O2
+     7      1      2      3      9     0.00   0.00000   0 ;    CL3-    C1-    N1-    O1
+     7      1      2      4      9     0.00   0.00000   0 ;    CL3-    C1-    N1-    O2
+
+#include "amber99sb-ildn.ff/tip3p.itp"
+
+[ system ]
+mobley_2481002 in water
+
+[ molecules ]
+; Compound        nmols
+ mobley_2481002 1     
+SOL              1251

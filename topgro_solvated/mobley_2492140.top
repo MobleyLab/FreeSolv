@@ -1,0 +1,91 @@
+; mobley_2492140_GMX.top created by acpype (Rev: 403) on Fri Jan 20 15:26:00 2017
+
+#include "amber99sb-ildn.ff/forcefield.itp"
+
+
+[ atomtypes ]
+;name   bond_type     mass     charge   ptype   sigma         epsilon       Amb
+ c3       c3          0.00000  0.00000   A     3.39967e-01   4.57730e-01 ; 1.91  0.1094
+ cl       cl          0.00000  0.00000   A     3.47094e-01   1.10876e+00 ; 1.95  0.2650
+ h2       h2          0.00000  0.00000   A     2.29317e-01   6.56888e-02 ; 1.29  0.0157
+
+[ moleculetype ]
+;name            nrexcl
+ mobley_2492140 3
+
+[ atoms ]
+;   nr  type  resi  res  atom  cgnr     charge      mass       ; qtot   bond_type
+     1   c3     1   MOL    C1    1     0.116700     12.01000 ; qtot 0.117
+     2   c3     1   MOL    C2    2     0.228200     12.01000 ; qtot 0.345
+     3   cl     1   MOL   CL1    3    -0.087500     35.45000 ; qtot 0.257
+     4   cl     1   MOL   CL2    4    -0.087500     35.45000 ; qtot 0.170
+     5   cl     1   MOL   CL3    5    -0.087500     35.45000 ; qtot 0.082
+     6   cl     1   MOL   CL4    6    -0.102700     35.45000 ; qtot -0.020
+     7   cl     1   MOL   CL5    7    -0.102700     35.45000 ; qtot -0.123
+     8   h2     1   MOL    H1    8     0.123000      1.00800 ; qtot -0.000
+
+[ bonds ]
+;   ai     aj funct   r             k
+     1      2   1    1.5350e-01    2.5363e+05 ;     C1 - C2    
+     1      6   1    1.7860e-01    2.3347e+05 ;     C1 - CL4   
+     1      7   1    1.7860e-01    2.3347e+05 ;     C1 - CL5   
+     1      8   1    1.1000e-01    2.7313e+05 ;     C1 - H1    
+     2      3   1    1.7860e-01    2.3347e+05 ;     C2 - CL1   
+     2      4   1    1.7860e-01    2.3347e+05 ;     C2 - CL2   
+     2      5   1    1.7860e-01    2.3347e+05 ;     C2 - CL3   
+
+[ pairs ]
+;   ai     aj    funct
+     6      3      1 ;    CL4 - CL1   
+     6      4      1 ;    CL4 - CL2   
+     6      5      1 ;    CL4 - CL3   
+     7      3      1 ;    CL5 - CL1   
+     7      4      1 ;    CL5 - CL2   
+     7      5      1 ;    CL5 - CL3   
+     8      3      1 ;     H1 - CL1   
+     8      4      1 ;     H1 - CL2   
+     8      5      1 ;     H1 - CL3   
+
+[ angles ]
+;   ai     aj     ak    funct   theta         cth
+     1      2      3      1    1.1033e+02    4.8409e+02 ;     C1 - C2     - CL1   
+     1      2      4      1    1.1033e+02    4.8409e+02 ;     C1 - C2     - CL2   
+     1      2      5      1    1.1033e+02    4.8409e+02 ;     C1 - C2     - CL3   
+     2      1      6      1    1.1033e+02    4.8409e+02 ;     C2 - C1     - CL4   
+     2      1      7      1    1.1033e+02    4.8409e+02 ;     C2 - C1     - CL5   
+     2      1      8      1    1.1159e+02    3.8510e+02 ;     C2 - C1     - H1    
+     3      2      4      1    1.1103e+02    4.5380e+02 ;    CL1 - C2     - CL2   
+     3      2      5      1    1.1103e+02    4.5380e+02 ;    CL1 - C2     - CL3   
+     4      2      5      1    1.1103e+02    4.5380e+02 ;    CL2 - C2     - CL3   
+     6      1      7      1    1.1103e+02    4.5380e+02 ;    CL4 - C1     - CL5   
+     6      1      8      1    1.0714e+02    3.3840e+02 ;    CL4 - C1     - H1    
+     7      1      8      1    1.0714e+02    3.3840e+02 ;    CL5 - C1     - H1    
+
+[ dihedrals ] ; propers
+; for gromacs 4.5 or higher, using funct 9
+;    i      j      k      l   func   phase     kd      pn
+     6      1      2      3      9     0.00   0.00000   0 ;    CL4-    C1-    C2-   CL1
+     6      1      2      3      9   180.00   1.88280   1 ;    CL4-    C1-    C2-   CL1
+     6      1      2      4      9     0.00   0.00000   0 ;    CL4-    C1-    C2-   CL2
+     6      1      2      4      9   180.00   1.88280   1 ;    CL4-    C1-    C2-   CL2
+     6      1      2      5      9     0.00   0.00000   0 ;    CL4-    C1-    C2-   CL3
+     6      1      2      5      9   180.00   1.88280   1 ;    CL4-    C1-    C2-   CL3
+     7      1      2      3      9     0.00   0.00000   0 ;    CL5-    C1-    C2-   CL1
+     7      1      2      3      9   180.00   1.88280   1 ;    CL5-    C1-    C2-   CL1
+     7      1      2      4      9     0.00   0.00000   0 ;    CL5-    C1-    C2-   CL2
+     7      1      2      4      9   180.00   1.88280   1 ;    CL5-    C1-    C2-   CL2
+     7      1      2      5      9     0.00   0.00000   0 ;    CL5-    C1-    C2-   CL3
+     7      1      2      5      9   180.00   1.88280   1 ;    CL5-    C1-    C2-   CL3
+     8      1      2      3      9     0.00   0.65084   3 ;     H1-    C1-    C2-   CL1
+     8      1      2      4      9     0.00   0.65084   3 ;     H1-    C1-    C2-   CL2
+     8      1      2      5      9     0.00   0.65084   3 ;     H1-    C1-    C2-   CL3
+
+#include "amber99sb-ildn.ff/tip3p.itp"
+
+[ system ]
+mobley_2492140 in water
+
+[ molecules ]
+; Compound        nmols
+ mobley_2492140 1     
+SOL              1314

@@ -1,0 +1,16 @@
+Remark line goes here
+MASS
+
+BOND
+
+ANGLE
+c3-s6-cl   63.240      98.990   same as br-s6-c3, penalty score=  1.3
+
+DIHE
+
+IMPROPER
+
+NONBON
+
+
+

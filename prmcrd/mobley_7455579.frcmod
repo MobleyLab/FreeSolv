@@ -1,0 +1,17 @@
+Remark line goes here
+MASS
+
+BOND
+
+ANGLE
+h5-c -os   53.240     110.340   same as ha-c -os, penalty score=  2.3
+
+DIHE
+
+IMPROPER
+h5-o -c -os         1.1          180.0         2.0          Using the default value
+
+NONBON
+
+
+

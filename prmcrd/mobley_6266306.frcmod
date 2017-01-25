@@ -1,0 +1,20 @@
+Remark line goes here
+MASS
+
+BOND
+
+ANGLE
+
+DIHE
+cy-cy-n3-cy   1    0.300         0.000          -3.000      same as c3-c3-n3-c3
+cy-cy-n3-cy   1    0.480       180.000           2.000      same as c3-c3-n3-c3, penalty score=260.5
+cy-cy-n3-hn   6    1.800         0.000           3.000      same as X -c3-n3-X , penalty score= 86.5
+h1-cy-n3-cy   6    1.800         0.000           3.000      same as X -c3-n3-X , penalty score= 86.5
+h1-cy-n3-hn   6    1.800         0.000           3.000      same as X -c3-n3-X , penalty score= 86.5
+
+IMPROPER
+
+NONBON
+
+
+

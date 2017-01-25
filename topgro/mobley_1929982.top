@@ -1,41 +1,36 @@
-; topgro/hydrogen_sulfide0.top created by rdparm2gmx.pl Fri May 11 16:53:13 PDT 2007
+; mobley_1929982_GMX.top created by acpype (Rev: 403) on Thu Jan 12 15:32:07 2017
 
 [ defaults ]
 ; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
 1               2               yes             0.5     0.8333
 
 [ atomtypes ]
-;name  bond_type    mass    charge   ptype          sigma      epsilon
-hs            hs      0.0000  0.0000  A   1.06908e-01  6.56888e-02
-sh            sh      0.0000  0.0000  A   3.56359e-01  1.04600e+00
+;name   bond_type     mass     charge   ptype   sigma         epsilon       Amb
+ sh       sh          0.00000  0.00000   A     3.56359e-01   1.04600e+00 ; 2.00  0.2500
+ hs       hs          0.00000  0.00000   A     1.06908e-01   6.56888e-02 ; 0.60  0.0157
 
 [ moleculetype ]
-; Name            nrexcl
-solute             3
+;name            nrexcl
+ mobley_1929982 3
 
 [ atoms ]
-;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB
-     1         sh      1    TMP     S1      1   -0.43900  32.100000
-     2         hs      1    TMP     H1      2    0.21950   1.000000
-     3         hs      1    TMP     H2      3    0.21950   1.000000
+;   nr  type  resi  res  atom  cgnr     charge      mass       ; qtot   bond_type
+     1   sh     1   MOL    S1    1    -0.440600     32.06000 ; qtot -0.441
+     2   hs     1   MOL    H1    2     0.220300      1.00800 ; qtot -0.220
+     3   hs     1   MOL    H2    3     0.220300      1.00800 ; qtot 0.000
 
 [ bonds ]
-;  ai    aj funct  r  k
-    1     2     1  1.3370e-01  2.5288e+05
-    1     3     1  1.3370e-01  2.5288e+05
-
-[ pairs ]
-;  ai    aj funct
+;   ai     aj funct   r             k
+     1      2   1    1.3370e-01    2.5288e+05 ;     S1 - H1    
+     1      3   1    1.3370e-01    2.5288e+05 ;     S1 - H2    
 
 [ angles ]
-;  ai    aj    ak funct  theta   cth
-    2     1     3     1  9.3720e+01  3.1296e+02
-
+;   ai     aj     ak    funct   theta         cth
+     2      1      3      1    9.3720e+01    3.1338e+02 ;     H1 - S1     - H2    
 
 [ system ]
-3 system in water
+ mobley_1929982
 
 [ molecules ]
 ; Compound        nmols
-solute            1
-SOL               385
+ mobley_1929982 1     

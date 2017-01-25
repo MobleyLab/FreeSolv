@@ -1,0 +1,24 @@
+Remark line goes here
+MASS
+
+BOND
+
+ANGLE
+c -cc-na   67.795     118.565   Calculated using nh-cc- c, penalty score=  3.0
+
+DIHE
+
+IMPROPER
+c3-cc-na-cc         1.1          180.0         2.0          Using the default value
+h5-na-cc-nd         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 67.5 (use general term))
+cc-n -cd-nd         1.1          180.0         2.0          Using the default value
+c -cd-cc-na         1.1          180.0         2.0          Using the default value
+cc-n -c -o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+c -c -n -c3         1.1          180.0         2.0          Using the default value
+n -n -c -o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+c -c3-n -cd         1.1          180.0         2.0          Using the default value
+
+NONBON
+
+
+

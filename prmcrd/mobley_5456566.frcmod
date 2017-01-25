@@ -1,0 +1,17 @@
+Remark line goes here
+MASS
+
+BOND
+
+ANGLE
+
+DIHE
+
+IMPROPER
+ca-ca-cp-cp         1.1          180.0         2.0          Using the default value
+ca-cl-ca-cp         1.1          180.0         2.0          Using the default value
+
+NONBON
+
+
+

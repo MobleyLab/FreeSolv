@@ -1,0 +1,23 @@
+Remark line goes here
+MASS
+
+BOND
+
+ANGLE
+s -p5-ss   60.245     111.870   Calculated with empirical approach for s-p5-ss
+n -c3-ss   64.530     108.880   same as nh-c3-ss, penalty score=  1.8
+n -nd-nc   75.970     105.470   same as na-nd-nc, penalty score=  2.2
+
+DIHE
+
+IMPROPER
+c -c3-n -nd         1.1          180.0         2.0          Using the default value
+ca-n -c -o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+c -ca-ca-ca         1.1          180.0         2.0          Using the default value
+ca-ca-ca-ha         1.1          180.0         2.0          Using general improper torsional angle  X- X-ca-ha, penalty score=  6.0)
+ca-ca-ca-nc         1.1          180.0         2.0          Using the default value
+
+NONBON
+
+
+

@@ -42,6 +42,41 @@ The database is maintained on the cite-able eScholarship repository of the Unive
 Please cite:
 > Mobley, David L. (2013). Experimental and Calculated Small Molecule Hydration Free Energies. UC Irvine: Department of Pharmaceutical Sciences, UCI. Retrieved from: http://www.escholarship.org/uc/item/6sd403pz
 
+# Manifest
+- `gromacs_analysis`: Contains plots resulting from GROMACS analysis of some of the data in FreeSolv.
+- `gromacs_energies`: Contains XVG files associated with the most recent (2017) update of FreeSolv calculated values; these files are large and are only available in the archived version of the database and not on GitHub.
+- `gromacs_mdpfiles`: Contains GROMACS run (.mdp) files used for the calculations connected with the most recent (2017) update of the calculated hydration free energies and enthalpies reported here. 
+- `mol2files_gaff`: contains mol2 files for all compounds with AM1-BCC charges and GAFF atom types
+- `mol2files_sybyl`: contains mol2 files for all compounds with AM1-BCC charges and SYBYL atom types
+- `primary-data`: Primary data from which the contents of this database can be re-generated; obtained from full database via `scripts/extract-primary-data.py`
+- `prmcrd`: AMBER format parameter, coordinate, and frcmod files corresponding to the systems we ultimately simulated in GROMACS.
+- `scripts`: Scripts pertaining to the material deposited here
+- `sdffiles`: SDF-format files for all of the molecules deposited here (as in `mol2files_gaff` and `mol2files_sybyl`)
+- `topgro`: GROMACS format topology and coordinate files for the calculations associated with the computed values in FreeSolv, for calculations in gas phase
+- `topgro_solvated`: GROMACS format topology and coordinate files for the calculations associated with the computed values in FreeSolv, for calculations in solution
+- `README.md`: This file
+- `database.pickle`: Python pickle file of the FreeSolv database
+- `database.json`: JSON format version of the FreeSolv database also stored in `database.pickle`
+- `database.txt`: Text format version of some of the fields from the database
+- `groups.txt`: Functional groups assigned to the different compounds in the database
+- `iupac_to_cid.pickle` and `.json`: Python pickle file and JSON file containing a dictionary for converting IUPAC names to FreeSolv compound IDs
+- `smiles_to_cid.pickle' and `.json`: Python pickle and JSON file containing a dictionary for converting SMILES strings to FreeSolv compound IDs
+
+
+Components:
+
+(01) database: contains the pickle and JSON files
+(02) dhdl_xvg: contains xvg files with dh/dl values for each hydration free energy calculation
+(03) xvg_h_components: contains xvg files necessary to partition the enthalpy in solvation and conformational components
+(04) u_xvg_h: contains xvg files with potential energies to calculate the hydration enthalpies
+(05) MDP_Files: contains MDP files for each sort of calculation
+(06) rebuild_freesolv.py: python script that generates FreeSolv's GROMACS input files. Requires openmoltools.
+(07) plots: contains all plots produced in this work.
+(08) mol2files_gaff: contains AMBER input files.
+(09) topgro: contains GROMACS input files.
+(10) tripos_mol2: contains mol2 files of each member of the FreeSolv set.
+(11) sdffiles: contains sdf files of each member of the FreeSolv set.
+
 # Change log/version history:
 
 This dataset started by taking all of the compounds we have studied previously with hydration free energies (references 1, 2, 4-9) including those from SAMPL4 and compiling them all into one big set, removing any redundancies and providing data, references, etc. for all of them. Details of changes for specific versions are found below.

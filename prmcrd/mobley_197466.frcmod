@@ -1,0 +1,17 @@
+Remark line goes here
+MASS
+
+BOND
+
+ANGLE
+c3-c -cx   62.820     116.050   same as c3-c -c3, penalty score=  8.0
+
+DIHE
+
+IMPROPER
+c3-cx-c -o          1.1          180.0         2.0          Using the default value
+
+NONBON
+
+
+

@@ -1,0 +1,17 @@
+Remark line goes here
+MASS
+
+BOND
+
+ANGLE
+s -p5-ss   60.245     111.870   Calculated with empirical approach for s-p5-ss
+
+DIHE
+
+IMPROPER
+c3-o -c -os         1.1          180.0         2.0          Using the default value
+
+NONBON
+
+
+

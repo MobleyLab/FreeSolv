@@ -1,0 +1,18 @@
+Remark line goes here
+MASS
+
+BOND
+
+ANGLE
+s -p5-ss   60.245     111.870   Calculated with empirical approach for s-p5-ss
+
+DIHE
+
+IMPROPER
+ca-ca-ca-ss         1.1          180.0         2.0          Using the default value
+ca-ca-ca-ha         1.1          180.0         2.0          Using general improper torsional angle  X- X-ca-ha, penalty score=  6.0)
+
+NONBON
+
+
+

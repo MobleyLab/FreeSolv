@@ -1,0 +1,21 @@
+Remark line goes here
+MASS
+
+BOND
+
+ANGLE
+
+DIHE
+
+IMPROPER
+c3-ca-ca-nb         1.1          180.0         2.0          Using the default value
+nb-nb-ca-nh         1.1          180.0         2.0          Using the default value
+ca-nb-ca-os         1.1          180.0         2.0          Using the default value
+n -o -c -os         1.1          180.0         2.0          Using the default value
+c -c3-n -c3         1.1          180.0         2.0          Using general improper torsional angle  X-c3- n-c3, penalty score=  3.0)
+c3-c3-nh-ca         1.1          180.0         2.0          Using the default value
+
+NONBON
+
+
+

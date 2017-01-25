@@ -1,0 +1,17 @@
+Remark line goes here
+MASS
+
+BOND
+
+ANGLE
+
+DIHE
+
+IMPROPER
+c3-h4-c2-n2         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 75.4 (use general term))
+n -o -c -os         1.1          180.0         2.0          Using the default value
+
+NONBON
+
+
+
