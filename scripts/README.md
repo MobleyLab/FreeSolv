@@ -8,5 +8,5 @@ This contains utility scripts and other tools relating to maintaining, building,
 - `hComponents.py`: Script used to analyze GROMACS xvg files and extract components of the enthalpy change, in the early 2017 update to FreeSolv
 - `make_v0.32.py`: Script editing database to update from 0.31 to 0.32.
 - `make_supporting_files.py`: From database pickle file, makes json version, database.txt, groups.txt, and supporting smiles_to_cid and iupac_to_cid in json and pickle formats. 
-- `rebuild_freesolv.py`: Rebuilding the contents of the FreeSolv database from primary data (SMILES strings) for use repeating all of the GROMACS calculations for the early 2017 update to the database.
+- `rebuild_freesolv.py`: Rebuilding the contents of the FreeSolv database from primary data (SMILES strings) for use repeating all of the GROMACS calculations for the early 2017 update to the database. Requires the Chodera Lab's `openmoltools` and the Mobley lab's `SolvationToolkit`, both of which are available from the `omnia` conda channel and on GitHub.
 - `utils.py`: Shared utilities (very short at present) 
