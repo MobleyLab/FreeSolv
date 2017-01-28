@@ -1,0 +1,14 @@
+Plots:
+(1) barh_positiveHconf.pdf          contains 10 \Delta H^{hyd}_{conf} (conformational)
+                                    and 10 T\Delta S^{hyd} of the compounds with the biggest
+                                    enthalpy change upon hydration.
+
+(2) enthalpy_and_entropy.pdf        contains: (a) \Delta H^{hyd} x \Delta G^{hyd} plot;
+                                    (b) \Delta S^{hyd} x \Delta G^{hyd} plot.
+
+(3) experimental_X_freeSolv.pdf     contains correlation plot between experimental and
+                                    calculated (FreeSolv) \Delta G^{hyd}.
+
+(4) FreeSolv_and_ORCHYD             contains: (a) plot between experimental and freeSolv's
+                                    \Delta H^{hyd}; (b) plot between experimental and
+                                    FreeSolv's \Delta G^{hyd}.

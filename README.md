@@ -26,14 +26,17 @@ The current set and format is motivated by several factors:
 
 The database consists of a .tar.gz file containing:
 * `database.txt`: A semicolon delimited text file containing compound IDs, SMILES, IUPAC names or similar, experimental values and uncertainties, calculated values, DOIs for references, and notes. Format described in the header
-* `database.pickle`: Python pickle file containing the same database, with some extra fields as well (notably, 'groups', which provides functional groups for the compounds as assigned by checkmol)
+* `database.pickle`: Python pickle file containing the same database, with some extra fields as well including 'groups', which provides functional groups for the compounds as assigned by checkmol), PubChem compound IDs, calculated enthalpies of hydration, some experimental enthalpies of hydration (from ORCHYD), and components of the enthalpy of hydration and hydration free energy (as described in our forthcoming paper, to be linked here soon). 
 * `groups.txt`: Functional groups for compounds as assigned by checkmol. Semicolon delimited. First field is compound ID, second field is compound name, and subsequent fields are functional groups.
 * `iupac_to_cid.pickle, smiles_to_cid.pickle`: Python pickle files containing conversion of IUPAC name to compound id and SMILES string to compound id, stored in dictionaries
 * Structure files:
-  * `mol2files_sybyl`: `mol2` files with partial charges as written by OEChem in Sybyl format/Sybyl atom types
-  * `mol2files_gaff`: `mol2` files with partial charges as used for our hydration free energy calculations (AMBER GAFF atom types)
-  * `sdffiles`: `sdf` files with partial charges as written by OEChem
-  * `topgro`: GROMACS format topology and coordinate files as used for our AM1-BCC GAFF hydration free energy calculations. Technical note: There may be some variation as to whether water molecules are or are not included in these files; these are intended to be used for the small molecule parameters only.
+  * `mol2files_sybyl.tar.gz`: `mol2` files with partial charges as written by OEChem in Sybyl format/Sybyl atom types
+  * `mol2files_gaff.tar.gz`: `mol2` files with partial charges as used for our hydration free energy calculations (AMBER GAFF atom types)
+  * `sdffiles.tar.gz`: `sdf` files with partial charges as written by OEChem
+  * `topgro.tar.gz`: GROMACS format topology and coordinate files as used for our AM1-BCC GAFF hydration free energy calculations. Technical note: There may be some variation as to whether water molecules are or are not included in these files; these are intended to be used for the small molecule parameters only.
+
+(See the Manifest below for a more complete list of all available files.)
+
 
 # The future:
 
@@ -41,6 +44,30 @@ The database is maintained on the cite-able eScholarship repository of the Unive
 
 Please cite:
 > Mobley, David L. (2013). Experimental and Calculated Small Molecule Hydration Free Energies. UC Irvine: Department of Pharmaceutical Sciences, UCI. Retrieved from: http://www.escholarship.org/uc/item/6sd403pz
+
+# Manifest
+- `gromacs_analysis`: Contains plots resulting from GROMACS analysis of some of the data in FreeSolv.
+- `gromacs_energies`: Contains XVG files associated with the most recent (2017) update of FreeSolv calculated values; these files are large and are only available in the archived version of the database and not on GitHub.
+- `gromacs_mdpfiles`: Contains GROMACS run (.mdp) files used for the calculations connected with the most recent (2017) update of the calculated hydration free energies and enthalpies reported here. 
+- `mol2files_gaff.tar.gz`: contains mol2 files for all compounds with AM1-BCC charges and GAFF atom types
+- `mol2files_sybyl.tar.gz`: contains mol2 files for all compounds with AM1-BCC charges and SYBYL atom types
+- `primary-data`: Primary data from which the contents of this database can be re-generated; obtained from full database via `scripts/extract-primary-data.py`
+- `prmcrd.tar.gz`: AMBER format parameter, coordinate, and frcmod files corresponding to the systems we ultimately simulated in GROMACS.
+- `scripts`: Scripts pertaining to the material deposited here
+- `sdffiles.tar.gz`: SDF-format files for all of the molecules deposited here (as in `mol2files_gaff` and `mol2files_sybyl`)
+- `topgro.tar.gz`: GROMACS format topology and coordinate files for the calculations associated with the computed values in FreeSolv, for calculations in gas phase
+- `topgro_solvated.tar.gz`: GROMACS format topology and coordinate files for the calculations associated with the computed values in FreeSolv, for calculations in solution
+- `README.md`: This file
+- `database.pickle`: Python pickle file of the FreeSolv database
+- `database.json`: JSON format version of the FreeSolv database also stored in `database.pickle`
+- `database.txt`: Text format version of some of the fields from the database
+- `groups.txt`: Functional groups assigned to the different compounds in the database
+- `iupac_to_cid.pickle` and `.json`: Python pickle file and JSON file containing a dictionary for converting IUPAC names to FreeSolv compound IDs
+- `smiles_to_cid.pickle' and `.json`: Python pickle and JSON file containing a dictionary for converting SMILES strings to FreeSolv compound IDs
+
+# Rebuilding FreeSolv
+
+The input files deposited here can be rebuilt (from SMILES strings) using the script `scripts/rebuild_freesolv.py`, which requires the Chodera lab's `openmoltools` package and the Mobley Lab's `SolvationToolkit`, both of which are `conda` installable from the `omnia` channel.
 
 # Change log/version history:
 
@@ -112,6 +139,16 @@ Please also note that some discrepancies between experimental values here and va
 ## Version 0.320: 
 Same as the above but initiates Zenodo DOIs. DOI http://dx.doi.org/10.5281/zenodo/159499
 
+## Version 0.5 (Jan. 26, 2017):
+* Re-generates all input files (`.mol2`, `.sdf`, GROMACS and AMBER format files, etc.) from primary data (SMILES strings)
+* Deposits scripts used for re-generating the database in the `scripts` directory
+* Re-calculates all calculated values (in conjunction with forthcoming paper)
+* Adds calculated enthalpies of hydration and components of enthalpy
+* Adds charge and non-polar components of hydration free energy
+* Adds a few experimental enthalpies of hydration obtained from the ORCHYD dataset
+* Adds `README.md` files in some of the sub-directories better indicating their contents
+* Corrects `tripos_mol2` back to `mol2files_sybyl` for consistency with `mol2files_gaff` (as in a prior version, but we had lost this change)
+* Provides JSON versions of database files
 
 ## Changes not yet in a formal release:
 
