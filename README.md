@@ -30,10 +30,10 @@ The database consists of a .tar.gz file containing:
 * `groups.txt`: Functional groups for compounds as assigned by checkmol. Semicolon delimited. First field is compound ID, second field is compound name, and subsequent fields are functional groups.
 * `iupac_to_cid.pickle, smiles_to_cid.pickle`: Python pickle files containing conversion of IUPAC name to compound id and SMILES string to compound id, stored in dictionaries
 * Structure files:
-  * `mol2files_sybyl`: `mol2` files with partial charges as written by OEChem in Sybyl format/Sybyl atom types
-  * `mol2files_gaff`: `mol2` files with partial charges as used for our hydration free energy calculations (AMBER GAFF atom types)
-  * `sdffiles`: `sdf` files with partial charges as written by OEChem
-  * `topgro`: GROMACS format topology and coordinate files as used for our AM1-BCC GAFF hydration free energy calculations. Technical note: There may be some variation as to whether water molecules are or are not included in these files; these are intended to be used for the small molecule parameters only.
+  * `mol2files_sybyl.tar.gz`: `mol2` files with partial charges as written by OEChem in Sybyl format/Sybyl atom types
+  * `mol2files_gaff.tar.gz`: `mol2` files with partial charges as used for our hydration free energy calculations (AMBER GAFF atom types)
+  * `sdffiles.tar.gz`: `sdf` files with partial charges as written by OEChem
+  * `topgro.tar.gz`: GROMACS format topology and coordinate files as used for our AM1-BCC GAFF hydration free energy calculations. Technical note: There may be some variation as to whether water molecules are or are not included in these files; these are intended to be used for the small molecule parameters only.
 
 (See the Manifest below for a more complete list of all available files.)
 
@@ -49,14 +49,14 @@ Please cite:
 - `gromacs_analysis`: Contains plots resulting from GROMACS analysis of some of the data in FreeSolv.
 - `gromacs_energies`: Contains XVG files associated with the most recent (2017) update of FreeSolv calculated values; these files are large and are only available in the archived version of the database and not on GitHub.
 - `gromacs_mdpfiles`: Contains GROMACS run (.mdp) files used for the calculations connected with the most recent (2017) update of the calculated hydration free energies and enthalpies reported here. 
-- `mol2files_gaff`: contains mol2 files for all compounds with AM1-BCC charges and GAFF atom types
-- `mol2files_sybyl`: contains mol2 files for all compounds with AM1-BCC charges and SYBYL atom types
+- `mol2files_gaff.tar.gz`: contains mol2 files for all compounds with AM1-BCC charges and GAFF atom types
+- `mol2files_sybyl.tar.gz`: contains mol2 files for all compounds with AM1-BCC charges and SYBYL atom types
 - `primary-data`: Primary data from which the contents of this database can be re-generated; obtained from full database via `scripts/extract-primary-data.py`
-- `prmcrd`: AMBER format parameter, coordinate, and frcmod files corresponding to the systems we ultimately simulated in GROMACS.
+- `prmcrd.tar.gz`: AMBER format parameter, coordinate, and frcmod files corresponding to the systems we ultimately simulated in GROMACS.
 - `scripts`: Scripts pertaining to the material deposited here
-- `sdffiles`: SDF-format files for all of the molecules deposited here (as in `mol2files_gaff` and `mol2files_sybyl`)
-- `topgro`: GROMACS format topology and coordinate files for the calculations associated with the computed values in FreeSolv, for calculations in gas phase
-- `topgro_solvated`: GROMACS format topology and coordinate files for the calculations associated with the computed values in FreeSolv, for calculations in solution
+- `sdffiles.tar.gz`: SDF-format files for all of the molecules deposited here (as in `mol2files_gaff` and `mol2files_sybyl`)
+- `topgro.tar.gz`: GROMACS format topology and coordinate files for the calculations associated with the computed values in FreeSolv, for calculations in gas phase
+- `topgro_solvated.tar.gz`: GROMACS format topology and coordinate files for the calculations associated with the computed values in FreeSolv, for calculations in solution
 - `README.md`: This file
 - `database.pickle`: Python pickle file of the FreeSolv database
 - `database.json`: JSON format version of the FreeSolv database also stored in `database.pickle`
