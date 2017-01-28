@@ -65,6 +65,10 @@ Please cite:
 - `iupac_to_cid.pickle` and `.json`: Python pickle file and JSON file containing a dictionary for converting IUPAC names to FreeSolv compound IDs
 - `smiles_to_cid.pickle' and `.json`: Python pickle and JSON file containing a dictionary for converting SMILES strings to FreeSolv compound IDs
 
+# Rebuilding FreeSolv
+
+The input files deposited here can be rebuilt (from SMILES strings) using the script `scripts/rebuild_freesolv.py`, which requires the Chodera lab's `openmoltools` package and the Mobley Lab's `SolvationToolkit`, both of which are `conda` installable from the `omnia` channel.
+
 # Change log/version history:
 
 This dataset started by taking all of the compounds we have studied previously with hydration free energies (references 1, 2, 4-9) including those from SAMPL4 and compiling them all into one big set, removing any redundancies and providing data, references, etc. for all of them. Details of changes for specific versions are found below.
