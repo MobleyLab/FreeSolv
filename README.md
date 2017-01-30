@@ -139,7 +139,7 @@ Please also note that some discrepancies between experimental values here and va
 ## Version 0.320: 
 Same as the above but initiates Zenodo DOIs. DOI http://dx.doi.org/10.5281/zenodo/159499
 
-## Version 0.5 (Jan. 26, 2017):
+## Version 0.5 (Jan. 26, 2017) ([10.5281/zenodo.264280](http://doi.org/10.5281/zenodo.264280)):
 * Re-generates all input files (`.mol2`, `.sdf`, GROMACS and AMBER format files, etc.) from primary data (SMILES strings)
 * Deposits scripts used for re-generating the database in the `scripts` directory
 * Re-calculates all calculated values (in conjunction with forthcoming paper)
