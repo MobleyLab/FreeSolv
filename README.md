@@ -139,7 +139,7 @@ Please also note that some discrepancies between experimental values here and va
 ## Version 0.320: 
 Same as the above but initiates Zenodo DOIs. DOI http://dx.doi.org/10.5281/zenodo/159499
 
-## Version 0.5 (Jan. 26, 2017):
+## Version 0.5 (Jan. 26, 2017) ([10.5281/zenodo.264280](http://doi.org/10.5281/zenodo.264280)):
 * Re-generates all input files (`.mol2`, `.sdf`, GROMACS and AMBER format files, etc.) from primary data (SMILES strings)
 * Deposits scripts used for re-generating the database in the `scripts` directory
 * Re-calculates all calculated values (in conjunction with forthcoming paper)
@@ -150,7 +150,23 @@ Same as the above but initiates Zenodo DOIs. DOI http://dx.doi.org/10.5281/zenod
 * Corrects `tripos_mol2` back to `mol2files_sybyl` for consistency with `mol2files_gaff` (as in a prior version, but we had lost this change)
 * Provides JSON versions of database files
 
+A preprint of the paper describing this work is available at [10.1101/104281](https://doi.org/10.1101/104281).
+
+
 ## Changes not yet in a formal release:
+
+# Contributors
+
+(Please let us know if your name should be on this list but isn't)
+- David L. Mobley (UC Irvine)
+- J. Peter Guthrie (University of Western Ontario)
+- The many people who contributed to the SAMPL challenges over the years and our early studies on hydration free energies, prior to construction of this database.
+- Guilherme Duarte Ramos Matos (UC Irvine)
+- Daisy Y. Kyu (UC Irvine)
+- John D. Chodera (MSKCC)
+- Michael R. Shirts (Colorado)
+- Hannes H. Loeffler (STFC Daresbury)
+
 
 # References
 * (1) Mobley, D. L., Bayly, C. I., Cooper, M. D., Shirts, M. R., & Dill, K. A. (2009). Small Molecule Hydration Free Energies in Explicit Solvent: An Extensive Test of Fixed-Charge Atomistic Simulations. Journal of Chemical Theory and Computation, 5(2), 350–358.
@@ -163,3 +179,4 @@ Same as the above but initiates Zenodo DOIs. DOI http://dx.doi.org/10.5281/zenod
 * (8) Mobley, D. L., Liu, S., Cerutti, D. S., Swope, W. C., & Rice, J. E. (2012). Alchemical prediction of hydration free energies for SAMPL.Journal of Computer-Aided Molecular Design,26(5), 551–562. doi:10.1007/s10822-011-9528-8
 * (9) Mobley, D. L., Wymer, K. L., Lim, N. M., Guthrie, J. P.  (2014) "Blind prediction of solvation free energies from the SAMPL4 challenge", Journal of Computer-Aided Molecular Design, 28:135-150 (2014).
 * (10) Mobley, D. L., and Guthrie, J. P., "FreeSolv: A database of experimental and calculated hydration free energies, with input files", Journal of Computer-Aided Molecular Design, 28(7):711-720 (2014)
+* (11) Duarte Ramos Matos, G. et al., "Approaches for calculating solvation free energies and enthalpies demonstrated with an update of the FreeSolv database", bioRxiv [10.1101/104281](https://doi.org/10.1101/104281)
