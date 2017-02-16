@@ -26,7 +26,7 @@ The current set and format is motivated by several factors:
 
 The database consists of a .tar.gz file containing:
 * `database.txt`: A semicolon delimited text file containing compound IDs, SMILES, IUPAC names or similar, experimental values and uncertainties, calculated values, DOIs for references, and notes. Format described in the header
-* `database.pickle`: Python pickle file containing the same database, with some extra fields as well including 'groups', which provides functional groups for the compounds as assigned by checkmol), PubChem compound IDs, calculated enthalpies of hydration, some experimental enthalpies of hydration (from ORCHYD), and components of the enthalpy of hydration and hydration free energy (as described in our forthcoming paper, to be linked here soon). 
+* `database.pickle`: Python pickle file containing the same database, with some extra fields as well including 'groups', which provides functional groups for the compounds as assigned by checkmol), PubChem compound IDs, calculated enthalpies of hydration, some experimental enthalpies of hydration (from ORCHYD), and components of the enthalpy of hydration and hydration free energy (as described in our forthcoming paper, to be linked here soon).
 * `groups.txt`: Functional groups for compounds as assigned by checkmol. Semicolon delimited. First field is compound ID, second field is compound name, and subsequent fields are functional groups.
 * `iupac_to_cid.pickle, smiles_to_cid.pickle`: Python pickle files containing conversion of IUPAC name to compound id and SMILES string to compound id, stored in dictionaries
 * Structure files:
@@ -48,7 +48,7 @@ Please cite:
 # Manifest
 - `gromacs_analysis`: Contains plots resulting from GROMACS analysis of some of the data in FreeSolv.
 - `gromacs_energies`: Contains XVG files associated with the most recent (2017) update of FreeSolv calculated values; these files are large and are only available in the archived version of the database and not on GitHub.
-- `gromacs_mdpfiles`: Contains GROMACS run (.mdp) files used for the calculations connected with the most recent (2017) update of the calculated hydration free energies and enthalpies reported here. 
+- `gromacs_mdpfiles`: Contains GROMACS run (.mdp) files used for the calculations connected with the most recent (2017) update of the calculated hydration free energies and enthalpies reported here.
 - `mol2files_gaff.tar.gz`: contains mol2 files for all compounds with AM1-BCC charges and GAFF atom types
 - `mol2files_sybyl.tar.gz`: contains mol2 files for all compounds with AM1-BCC charges and SYBYL atom types
 - `primary-data`: Primary data from which the contents of this database can be re-generated; obtained from full database via `scripts/extract-primary-data.py`
@@ -63,7 +63,8 @@ Please cite:
 - `database.txt`: Text format version of some of the fields from the database
 - `groups.txt`: Functional groups assigned to the different compounds in the database
 - `iupac_to_cid.pickle` and `.json`: Python pickle file and JSON file containing a dictionary for converting IUPAC names to FreeSolv compound IDs
-- `smiles_to_cid.pickle' and `.json`: Python pickle and JSON file containing a dictionary for converting SMILES strings to FreeSolv compound IDs
+- `smiles_to_cid.pickle` and `.json`: Python pickle and JSON file containing a dictionary for converting SMILES strings to FreeSolv compound IDs
+- `notebooks/OrionDB.ipynb`: iPython notebook providing an example of concatenating molecules and associating generic data.
 
 # Rebuilding FreeSolv
 
@@ -133,10 +134,10 @@ Please also note that some discrepancies between experimental values here and va
 
 ## Version 0.32 (Sept. 29, 2015):
 * Corrected SMILES strings (and other files) for nitro-containing compounds mobley_3802803 and mobley_9741965. Due to some type of earlier error, the GAFF and SYBYL .mol2 files for these contained incorrect bonding in the nitro group(s), which resulted in generation of incorrect SMILES when generating FreeSolv. These SMILES strings have now been corrected, as has the bond type in the .mol2 files. Partial charges in the topology files and .mol2 files were retained as use for the calculations reported here, and will be updated in a subsequent release when the calculations are repeated. Checkmol groups for these compounds were also updated. Thanks to Christopher Bayly for noticing these issues. (9/29/15)
-* Added (temporarily?) unique, short nicknames to all compounds in database.txt and database.pickle; these consist of IUPAC names when short, or common/other names which are unique and lead to useful hits when used as search terms. (Approx. 10/21/14) 
+* Added (temporarily?) unique, short nicknames to all compounds in database.txt and database.pickle; these consist of IUPAC names when short, or common/other names which are unique and lead to useful hits when used as search terms. (Approx. 10/21/14)
 * Removed mobley_4689084, which duplicates mobley_352111 (same experimental value and source data, but the calculated value of the former is older, and topology/coordinate file were less well curated). (10/24/14)
 
-## Version 0.320: 
+## Version 0.320:
 Same as the above but initiates Zenodo DOIs. DOI http://dx.doi.org/10.5281/zenodo/159499
 
 ## Version 0.5 (Jan. 26, 2017) ([10.5281/zenodo.264280](http://doi.org/10.5281/zenodo.264280)):
@@ -154,6 +155,7 @@ A preprint of the paper describing this work is available at [10.1101/104281](ht
 
 
 ## Changes not yet in a formal release:
+* Addition of `notebooks` directory
 
 # Contributors
 
@@ -166,6 +168,7 @@ A preprint of the paper describing this work is available at [10.1101/104281](ht
 - John D. Chodera (MSKCC)
 - Michael R. Shirts (Colorado)
 - Hannes H. Loeffler (STFC Daresbury)
+- Nathan M. Lim (UC Irvine)
 
 
 # References
