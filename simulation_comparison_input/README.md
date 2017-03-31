@@ -9,26 +9,24 @@
 
 # Conversion Details:
 
-- Program versions used were:
-
-- GROMACS: GROMACS 5.1.2
-- sander: Version 16.0
-- lammps: release date 16 Feb 2016
-- desmond: schrodinger2016-1
-- charmm: Developmental Version 40b2   February 15, 2016 
+Program versions used were:
+    - GROMACS: GROMACS 5.1.2
+    - sander: Version 16.0
+    - lammps: release date 16 Feb 2016
+    - desmond: schrodinger2016-1
+    - charmm: Developmental Version 40b2   February 15, 2016 
 
 In the following description, the files are
-
-- GROMACS_PATH = path to the bin/ directory gromacs is installed in
-- AMBER_PATH = the location of the sander executable
-- LAMMPS_PATH = the location of the lammps executable
-- CHARMM_PATH = the location of the charmm executable
-- mobley_XXXXXX = input file, with number indicated by XXXXXX
+   - GROMACS_PATH = path to the bin/ directory gromacs is installed in
+   - AMBER_PATH = the location of the sander executable
+   - LAMMPS_PATH = the location of the lammps executable
+   - CHARMM_PATH = the location of the charmm executable
+   - mobley_XXXXXX = input file, with number indicated by XXXXXX
 
 Files were converted with the python module `intermol`. The intermol
 version was https://github.com/shirtsgroup/InterMol, freesolv branch,
-commit 4fd307e updated 3/28/2017.  The addition module ParmEd
-`https://github.com/ParmEd/ParmEd` is a dependency of InterMol for
+commit 4fd307e updated 3/28/2017.  The addition module `ParmEd`
+https://github.com/ParmEd/ParmEd is a dependency of InterMol for
 conversion from and to AMBER and CHARMM format files. 
 
 For all but two systems, tagged version 2.73 of ParmEd was used.  For
@@ -51,7 +49,7 @@ The command for conversion was was:
                -ds ./onepoint_freesolv.cfg
                -as ./min_freesolv.in
                -ls pair_style lj/cut/coul/cut 30.0 30.0\npair_modify tail no\n\n
-	       -cs nbonds ips elec vdw cutnb 50 ctofnb 49.99 noewald
+               -cs nbonds ips elec vdw cutnb 50 ctofnb 49.99 noewald
 
 # Energy file conversion description
 
@@ -70,8 +68,9 @@ comparison:
   energy comparison' section, where differences in potential energies
   between the input and all output programs are given. Differences are
   generally of the magnitude seen in a previous study, Shirts, M.R.,
-  Klein, C., Swails, J.M. et al. J Comput Aided Mol Des
-  (2016), doi:10.1007/s10822-016-9977-1, with exceptions noted below.
+  Klein, C., Swails, J.M. et al. J Comput Aided Mol Des (2016),
+  doi:[10.1007/s10822-016-9977-1](http://dx.doi.org/10.1007/s10822-016-9977-1),
+  with exceptions noted below.
 
 - Conversions in InterMol are done from AMBER to GROMACS, and then to
   a variety of file formats. For a number of files, once the AMBER
