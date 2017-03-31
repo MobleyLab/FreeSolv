@@ -10,11 +10,11 @@
 # Conversion Details:
 
 Program versions used were
-    - GROMACS: GROMACS 5.1.2
-    - sander: Version 16.0
-    - lammps: release date 16 Feb 2016
-    - desmond: schrodinger2016-1
-    - charmm: Developmental Version 40b2   February 15, 2016 
+   - GROMACS: GROMACS 5.1.2
+   - sander: Version 16.0
+   - lammps: release date 16 Feb 2016
+   - desmond: schrodinger2016-1
+   - charmm: Developmental Version 40b2   February 15, 2016 
 
 In the following description, the files are
    - GROMACS_PATH = path to the bin/ directory gromacs is installed in
