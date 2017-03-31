@@ -9,7 +9,7 @@
 
 # Conversion Details:
 
-Program versions used were:
+Program versions used were
     - GROMACS: GROMACS 5.1.2
     - sander: Version 16.0
     - lammps: release date 16 Feb 2016
