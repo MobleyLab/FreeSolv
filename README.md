@@ -156,7 +156,7 @@ Same as the above but initiates Zenodo DOIs. DOI http://dx.doi.org/10.5281/zenod
 * Corrects `tripos_mol2` back to `mol2files_sybyl` for consistency with `mol2files_gaff` (as in a prior version, but we had lost this change)
 * Provides JSON versions of database files
 
-## Version 0.51 (April 5, 2017) ([XXXXXXX](XXXXXXXX)):
+## Version 0.51 (April 5, 2017) ([10.5281/zenodo.495235](http://doi.org/10.5281/zenodo.495235)):
 * Introduced automatically-generated input files for CHARMM, DESMOND, and LAMMPS, and alternate GROMACS files generated via ParmEd rather than acpype 
 * Reorganizes naming convention of simulation structure files
 * Provides energy comparison of all automatically generated files in `simulation_comparison_input`
