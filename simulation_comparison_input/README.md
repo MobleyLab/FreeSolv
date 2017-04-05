@@ -38,6 +38,7 @@ edited to add these energies.
 
 The command for conversion was was:
 
+```
     python convert.py --odir mobley_XXXXX
                --gromacs --charmm --lammps --desmond --amber --energy --amb_in mobley_XXXXX.prmtop mobley_XXXX.inpcrd
                --inefile ./min_freesolv.in
@@ -50,6 +51,9 @@ The command for conversion was was:
                -as ./min_freesolv.in
                -ls pair_style lj/cut/coul/cut 30.0 30.0\npair_modify tail no\n\n
                -cs nbonds ips elec vdw cutnb 50 ctofnb 49.99 noewald
+```
+
+where `convert.py` refers to the relevant InterMol utility. 
 
 # Energy file conversion description
 
