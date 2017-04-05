@@ -55,13 +55,13 @@ Please cite:
 - `scripts`: Scripts pertaining to the material deposited here
 - `sdffiles.tar.gz`: SDF-format files for all of the molecules deposited here (as in `mol2files_gaff` and `mol2files_sybyl`)
 - `amber.tar.gz`: AMBER format parameter, coordinate, and frcmod files corresponding to the systems we ultimately simulated in GROMACS.
-- `gromacs_original.tar.gz`: GROMACS format topology and coordinate files for the calculations associated with the computed values in FreeSolv, for calculations in gas phase
-- `gromacs_solvated.tar.gz`: GROMACS format topology and coordinate files for the calculations associated with the computed values in FreeSolv, for calculations in solution
+- `gromacs_original.tar.gz`: GROMACS format topology and coordinate files for the calculations associated with the computed values in FreeSolv, for calculations in gas phase. These were generated from AMBER files via acpype, prior to our more recent migration to ParmEd.
+- `gromacs_solvated.tar.gz`: GROMACS format topology and coordinate files for the calculations associated with the computed values in FreeSolv, for calculations in solution, again generated from AMBER files via acpype.
 - `lammps.tar.gz`: LAMMPS format topology and coordinate files for the calculations associated with the computed values in FreeSolv, automatically converted using InterMol from the AMBER files
-- `charmm.tar.gz`: CHARMM format topology and coordinate files for the calculations associated with the computed values in FreeSolv, automatically converted using InterMol from the AMBER files
-- `gromacs.tar.gz`: GROMACS format topology and coordinate files for the calculations associated with the computed values in FreeSolv, automatically converted using InterMol from the AMBER files
+- `charmm.tar.gz`: CHARMM format topology and coordinate files for the calculations associated with the computed values in FreeSolv, automatically converted using ParmEd (via InterMol) from the AMBER files
+- `gromacs.tar.gz`: GROMACS format topology and coordinate files for the calculations associated with the computed values in FreeSolv, automatically converted using ParmEd (via InterMol) from the AMBER files
 - `desmond.tar.gz`: DESMOND format topology and coordinate files for the calculations associated with the computed values in FreeSolv, automatically converted using InterMol from the AMBER files
-- `simulation_comparison_input/`: directory containing input files used for the validation of the input conversion files by comparing energy files, description of automated conversion process, and the energy comparisons.
+- `simulation_comparison_input/`: directory containing input files used for the validation of the input conversion files by comparing energy files, description of automated conversion process, and the energy comparisons. See `simulation_comparison_input/README.md` for more details.
 - `README.md`: This file
 - `database.pickle`: Python pickle file of the FreeSolv database
 - `database.json`: JSON format version of the FreeSolv database also stored in `database.pickle`
@@ -156,8 +156,8 @@ Same as the above but initiates Zenodo DOIs. DOI http://dx.doi.org/10.5281/zenod
 * Corrects `tripos_mol2` back to `mol2files_sybyl` for consistency with `mol2files_gaff` (as in a prior version, but we had lost this change)
 * Provides JSON versions of database files
 
-## Version 0.6 (Mar. 31, 2017) ([XXXXXXX](XXXXXXXX)):
-* Introduced automatically-generated input files for CHARMM, DESMOND, and LAMMPS 
+## Version 0.51 (April 5, 2017) ([XXXXXXX](XXXXXXXX)):
+* Introduced automatically-generated input files for CHARMM, DESMOND, and LAMMPS, and alternate GROMACS files generated via ParmEd rather than acpype 
 * Reorganizes naming convention of simulation structure files
 * Provides energy comparison of all automatically generated files in `simulation_comparison_input`
 * Addition of `notebooks` directory
