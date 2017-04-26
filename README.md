@@ -162,8 +162,7 @@ Same as the above but initiates Zenodo DOIs. DOI http://dx.doi.org/10.5281/zenod
 * Provides energy comparison of all automatically generated files in `simulation_comparison_input`
 * Addition of `notebooks` directory
 
-A preprint of the paper describing this work is available at [10.1101/104281](https://doi.org/10.1101/104281).
-
+**The changes made in the Version 0.5 and 0.51 updates are described in our recent FreeSolv update/mini-review paper in the [Journal of Chemical and Engineering Data](http://pubs.acs.org/doi/abs/10.1021/acs.jced.7b00104)**.
 
 ## Changes not yet in a formal release:
 
