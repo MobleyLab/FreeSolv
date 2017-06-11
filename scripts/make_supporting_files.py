@@ -10,7 +10,7 @@ utils.convert_to_json('../database.pickle', '../database.json')
 
 #Put it in a nice table for easy parsing. Use semicolons to separate fields, making sure each individual field doesn't contain any semicolons since this would break parsing.
 
-outtext = ["#Hydration free energy datbase v0.5, 1/19/17.\n"]
+outtext = ["#Hydration free energy datbase v0.52, 6/11/17.\n"]
 outtext += ["#Semicolon-delimited text file with fields in the following format:\n"]
 outtext += ["# compound id (and file prefix); SMILES; iupac name (or alternative if IUPAC is unavailable or not parseable by OEChem); experimental value (kcal/mol); experimental uncertainty (kcal/mol); Mobley group calculated value (GAFF) (kcal/mol); calculated uncertainty (kcal/mol); experimental reference (original or paper this value was taken from); calculated reference; text notes.\n"]
 
@@ -25,7 +25,7 @@ for cid in cids:
     if ';' in notes: #Make sure no semicolon in notes
         #Fix issue where I used a semicolon
         notes = notes.replace('not presently available;', 'not presently available, so')
-        if ';' in notes:        
+        if ';' in notes:
             print("ERROR: For %s, note contains ;. The note is:" % cid, notes)
     if ';' in database[cid]['expt_reference']:
         print("ERROR: For %s, experimental reference contains ;. The reference is:" % cid, database[cid]['expt_reference'])
