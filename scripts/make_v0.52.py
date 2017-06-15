@@ -14,7 +14,7 @@ database = pickle.load(file, encoding='latin1')
 file.close()
 
 # Remove mobley_4689084
-database.remove('mobley_4689084')
+database.pop('mobley_4689084')
 
 # Update DOI for calculated values
 for cid in database:

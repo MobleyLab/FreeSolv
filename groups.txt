@@ -292,7 +292,6 @@ mobley_4678740; 	 m-bis(trifluoromethyl)benzene 	; halogen derivative; aromatic
 mobley_4683624; 	 4-propylphenol 	; phenol or hydroxyhetarene; aromatic
 mobley_4687447; 	 2-propoxyethanol 	; primary alcohol; dialkyl ether
 mobley_468867; 	 heptachlor 	; alkyl chloride; alkene
-mobley_4689084; 	 2-acetoxyethyl acetate 	; carboxylic acid ester
 mobley_4690963; 	 1,2-diethoxyethane 	; dialkyl ether
 mobley_4694328; 	 octanal 	; aldehyde
 mobley_4699732; 	 1,2-dichloropropane 	; alkyl chloride
