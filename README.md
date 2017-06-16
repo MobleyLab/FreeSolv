@@ -165,6 +165,9 @@ Same as the above but initiates Zenodo DOIs. DOI http://dx.doi.org/10.5281/zenod
 **The changes made in the Version 0.5 and 0.51 updates are described in our recent FreeSolv update/mini-review paper in the [Journal of Chemical and Engineering Data](http://pubs.acs.org/doi/abs/10.1021/acs.jced.7b00104)**.
 
 ## Changes not yet in a formal release:
+- Remove redundant molecule mobley_4689084 (which duplicates  mobley_352111 had the same experimental value, and a calculated value within uncertainty) 
+- Add utility functionality to easily check for duplicates; rebuild database after removing above duplicate and checking for others
+- Update reference for calculated values to refer to the J Chem Engr Data reference.
 
 # Contributors
 
@@ -174,6 +177,7 @@ Same as the above but initiates Zenodo DOIs. DOI http://dx.doi.org/10.5281/zenod
 - The many people who contributed to the SAMPL challenges over the years and our early studies on hydration free energies, prior to construction of this database.
 - Guilherme Duarte Ramos Matos (UC Irvine)
 - Daisy Y. Kyu (UC Irvine)
+- Caitlin Bannan (UC Irvine)
 - John D. Chodera (MSKCC)
 - Michael R. Shirts (Colorado)
 - Hannes H. Loeffler (STFC Daresbury)
@@ -191,4 +195,4 @@ Same as the above but initiates Zenodo DOIs. DOI http://dx.doi.org/10.5281/zenod
 * (8) Mobley, D. L., Liu, S., Cerutti, D. S., Swope, W. C., & Rice, J. E. (2012). Alchemical prediction of hydration free energies for SAMPL.Journal of Computer-Aided Molecular Design,26(5), 551–562. doi:10.1007/s10822-011-9528-8
 * (9) Mobley, D. L., Wymer, K. L., Lim, N. M., Guthrie, J. P.  (2014) "Blind prediction of solvation free energies from the SAMPL4 challenge", Journal of Computer-Aided Molecular Design, 28:135-150 (2014).
 * (10) Mobley, D. L., and Guthrie, J. P., "FreeSolv: A database of experimental and calculated hydration free energies, with input files", Journal of Computer-Aided Molecular Design, 28(7):711-720 (2014)
-* (11) Duarte Ramos Matos, G. et al., "Approaches for calculating solvation free energies and enthalpies demonstrated with an update of the FreeSolv database", bioRxiv [10.1101/104281](https://doi.org/10.1101/104281)
+* (11) Duarte Ramos Matos, G. et al., "Approaches for calculating solvation free energies and enthalpies demonstrated with an update of the FreeSolv database", Journal of Chemical and Engineering Data 62(5):1559-1569 (2017) [10.1021/acs.jced.7b00104](https://doi.org/10.1021/acs.jced.7b00104)
