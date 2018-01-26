@@ -164,10 +164,13 @@ Same as the above but initiates Zenodo DOIs. DOI http://dx.doi.org/10.5281/zenod
 
 **The changes made in the Version 0.5 and 0.51 updates are described in our recent FreeSolv update/mini-review paper in the [Journal of Chemical and Engineering Data](http://pubs.acs.org/doi/abs/10.1021/acs.jced.7b00104)**.
 
-## Changes not yet in a formal release:
+## Version 0.52 (Jan. 26, 2018, but changes made in Aug. 2017) ([10.5281/zenodo.1161245])(http://dx.doi.org/10.5281/zenodo.1161245)):
 - Remove redundant molecule mobley_4689084 (which duplicates  mobley_352111 had the same experimental value, and a calculated value within uncertainty) 
 - Add utility functionality to easily check for duplicates; rebuild database after removing above duplicate and checking for others
 - Update reference for calculated values to refer to the J Chem Engr Data reference.
+
+
+## Changes not yet in a release: 
 
 # Contributors
 
