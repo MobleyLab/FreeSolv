@@ -45,6 +45,10 @@ The database is maintained on the cite-able eScholarship repository of the Unive
 Please cite:
 > Mobley, David L. (2013). Experimental and Calculated Small Molecule Hydration Free Energies. UC Irvine: Department of Pharmaceutical Sciences, UCI. Retrieved from: http://www.escholarship.org/uc/item/6sd403pz
 
+# License
+
+To the extent possible/allowable by law, the data here is covered by the enclosed LICENSE file, specifying CC-BY 4.0, and the code covered by LICENSE_code, an MIT license. However, it is worth attaching caveats to the data, as the authors of this repository are not lawyers, and the data is derived from various sources and may be subject to other licenses that we are not aware of. To the extent that the data is ours to license, we make it available under the attached license; to the extent that it is not, it is subject to any original licensing restrictions.
+
 # Manifest
 - `gromacs_analysis`: Contains plots resulting from GROMACS analysis of some of the data in FreeSolv.
 - `gromacs_energies`: Contains XVG files associated with the most recent (2017) update of FreeSolv calculated values; these files are large and are only available in the archived version of the database and not on GitHub.
@@ -171,6 +175,7 @@ Same as the above but initiates Zenodo DOIs. DOI http://dx.doi.org/10.5281/zenod
 
 
 ## Changes not yet in a release: 
+- Add information on licensing terms (2026-04-03)
 
 # Contributors
 
@@ -190,6 +195,7 @@ Same as the above but initiates Zenodo DOIs. DOI http://dx.doi.org/10.5281/zenod
 # References
 * (1) Mobley, D. L., Bayly, C. I., Cooper, M. D., Shirts, M. R., & Dill, K. A. (2009). Small Molecule Hydration Free Energies in Explicit Solvent: An Extensive Test of Fixed-Charge Atomistic Simulations. Journal of Chemical Theory and Computation, 5(2), 350–358.
 * (2) Mobley, D. L., Dill, K., & Chodera, J. D. (2008). Treating entropy and conformational changes in implicit solvent simulations of small molecules.The Journal of Physical Chemistry B,112(3), 938.
+
 * (3) Rizzo, R. C., Aynechi, T., Case, D. A., & Kuntz, I. D. (2006). Estimation of Absolute Free Energies of Hydration Using Continuum Methods:  Accuracy of Partial Charge Models and Optimization of Nonpolar Contributions.Journal of Chemical Theory and Computation,2(1), 128–139. doi:10.1021/ct050097l
 * (4) Mobley, D. L., Dumont, É., Chodera, J. D., & Dill, K. (2007). Comparison of charge models for fixed-charge force fields: Small-molecule hydration free energies in explicit solvent.The Journal of Physical Chemistry B,111(9), 2242–2254.
 * (5) Nicholls, A., Mobley, D. L., Guthrie, J. P., Chodera, J. D., Bayly, C. I., Cooper, M. D., & Pande, V. S. (2008). Predicting small-molecule solvation free energies: an informal blind test for computational chemistry.Journal of Medicinal Chemistry,51(4), 769–779. doi:10.1021/jm070549+
